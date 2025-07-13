@@ -17,10 +17,10 @@ remote_theme: raviriley/agency-jekyll-theme
 url    : "https://talleresemarelcampello.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title      : Talleres Emar ElCampello
+title      : Talleres EmarElCampello
 email      : talleresemarelcampello@gmail.com #this is also the email contact forms will go to
-description: "Talleres Emar ElCampello - Tu taller de confianza en El Campello"
-author     : Talleres Emar ElCampello
+description: "Talleres EmarElCampello - Tu taller de confianza en El Campello"
+author     : Talleres EmarElCampello
 favicon    : "favicon.ico" # path to favicon
 custom_css : "assets/css/custom.css" # Custom CSS for better readability
 # logo:     #optional, defaults to site title
@@ -37,10 +37,8 @@ collections:
 
 markdown: kramdown
 
-# Formspree form configuration - using email-based approach
-# For production, you should create a Formspree account and use a form ID instead
-# formspree_form_path: "f/YOUR_FORM_ID_HERE"
-formspree_form_path: "f/mzzvpvzk"
+# Contact form using FormSubmit instead of Formspree
+# FormSubmit provides a simple form handling service without requiring account setup
 
 plugins:
   - jekyll-remote-theme
