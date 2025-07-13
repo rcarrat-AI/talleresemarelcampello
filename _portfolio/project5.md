@@ -1,18 +1,19 @@
 ---
-title: Project Name
-subtitle: Lorem ipsum dolor sit amet consectetur.
+title: Neumáticos
+subtitle: Venta, montaje y equilibrado de neumáticos
 image: assets/img/portfolio/05-full.jpg
-alt: 
+alt: Servicio de neumáticos
 
 caption:
-  title: Southwest
-  subtitle: Website Design
+  title: Neumáticos
+  subtitle: Montaje y Equilibrado
   thumbnail: assets/img/portfolio/05-thumbnail.jpg
 ---
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+Servicio completo de **neumáticos** con todas las marcas y medidas disponibles. Ofrecemos venta, montaje, equilibrado y reparación de neumáticos.
 
 {:.list-inline}
-- Date: October 2019
-- Client: Southwest
-- Category: Website Design
+- Venta de todas las marcas
+- Montaje y desmontaje
+- Equilibrado computerizado
+- Reparación de pinchazos
 

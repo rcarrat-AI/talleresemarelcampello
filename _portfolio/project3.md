@@ -1,18 +1,19 @@
 ---
-title: Project Name
-subtitle: Lorem ipsum dolor sit amet consectetur.
+title: Inyección y Diagnosis
+subtitle: Sistemas de inyección y diagnóstico computerizado
 image: assets/img/portfolio/03-full.jpg
-alt: 
+alt: Servicio de inyección y diagnosis
 
 caption:
-  title: Finish
-  subtitle: Identity
+  title: Inyección
+  subtitle: Diagnosis Avanzada
   thumbnail: assets/img/portfolio/03-thumbnail.jpg
 ---
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+Servicio especializado en **sistemas de inyección** y **diagnosis computerizada**.
 
 {:.list-inline}
-- Date: January 2017
-- Client: Finish
-- Category: Identity
+- Sistemas de inyección diésel y gasolina
+- Diagnosis computerizada
+- Reparación de inyectores
+- Optimización del motor
 

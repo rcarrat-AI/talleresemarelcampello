@@ -1,18 +1,19 @@
 ---
-title: Project Name
-subtitle: Lorem ipsum dolor sit amet consectetur.
+title: Electricidad del Automóvil
+subtitle: Diagnóstico y reparación de sistemas eléctricos
 image: assets/img/portfolio/02-full.jpg
-alt: Keep Exploring
+alt: Servicio de electricidad del automóvil
 
 caption:
-  title: Explore
-  subtitle: Graphic Design
+  title: Electricidad
+  subtitle: Diagnosis Computerizada
   thumbnail: assets/img/portfolio/02-thumbnail.jpg
 ---
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+Especialistas en **electricidad del automóvil** con equipos de diagnóstico avanzado.
 
 {:.list-inline}
-- Date: January 2017
-- Client: Explore
-- Category: Graphic Design
+- Alternadores y motores de arranque
+- Sistemas de carga
+- Reparación de centralitas
+- Instalaciones eléctricas
 

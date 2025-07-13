@@ -170,152 +170,165 @@ en-AU:
 # -------
 es: &DEFAULT_ES
   header:
-    title: ¡Bienvenido a nuestro Estudio!
-    text: Es un placer conocerle
-    button: Ver más
+    title: ¡Bienvenido a Talleres EmarElCampello!
+    text: Tu taller de confianza en El Campello
+    button: Nuestros Servicios
     buttonlink: "#servicios"
 
   services:
-    title: "Servicios"
-    text: "Lorem ipsum"
+    title: "Nuestros Servicios"
+    text: "Servicios profesionales de automoción"
     section: servicios
     list:
-      - title: "Comercio Electrónico"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Diseño Responsivo"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Su descripción aquí, soporte completo de **Markdown**"
-        icon: fab fa-markdown
+      - title: "Servicio Rápido"
+        desc: "Cambio de aceite, filtros y mantenimiento básico mientras esperas. Servicio rápido y eficiente para tu día a día."
+        icon: fas fa-clock
+      - title: "Mecánica General"
+        desc: "Reparación y mantenimiento completo del motor, transmisión, frenos y sistemas mecánicos de tu vehículo."
+        icon: fas fa-wrench
+      - title: "Electricidad del Automóvil"
+        desc: "Diagnóstico y reparación de sistemas eléctricos, alternadores, baterías y componentes electrónicos."
+        icon: fas fa-bolt
+      - title: "Inyección y Motor"
+        desc: "Especialistas en sistemas de inyección, reparación de motores y optimización del rendimiento."
+        icon: fas fa-cog
+      - title: "Aire Acondicionado"
+        desc: "Mantenimiento, reparación y recarga de sistemas de climatización para tu comodidad."
+        icon: fas fa-snowflake
+      - title: "Pre-ITV"
+        desc: "Revisión completa antes de la ITV oficial para asegurar que tu vehículo pase sin problemas."
+        icon: fas fa-clipboard-check
+      - title: "Diagnosis Computerizada"
+        desc: "Diagnóstico avanzado con equipos de última generación para detectar cualquier problema."
+        icon: fas fa-laptop-medical
+      - title: "Neumáticos"
+        desc: "Venta, montaje, equilibrado y reparación de neumáticos. Todas las marcas y medidas."
+        icon: fas fa-tire
+      - title: "Recogida de Vehículos"
+        desc: "Servicio de recogida y entrega de tu vehículo en tu domicilio o lugar de trabajo."
+        icon: fas fa-truck
+      - title: "Revisión Oficial"
+        desc: "Revisiones oficiales y mantenimiento según las especificaciones del fabricante."
+        icon: fas fa-certificate
 
   portfolio:
-    title: "Portafolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "Nuestros Trabajos"
+    text: "Algunos de nuestros servicios especializados"
     section: portafolio
-    closebutton: "Cerrar Proyecto"
+    closebutton: "Cerrar"
 
   timeline:
-    title: "Cronología"
-    text: "Lorem ipsum timeline"
+    title: "Nuestra Historia"
+    text: "Más de 20 años de experiencia en El Campello"
     section: cronologia
     # left is the default
     #start_align: "left"
     events:
-      - title: "Nuestro Humilde Comienzo"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Fundación del Taller"
+        year: "2000"
+        desc: "Iniciamos nuestro camino como un pequeño taller familiar en El Campello, con la visión de ofrecer un servicio personalizado y de confianza a nuestros vecinos."
         image: assets/img/timeline/1.jpg
         alt:
-      - title: "Una Agencia nace"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Expansión de Servicios"
+        year: "2008"
+        desc: "Ampliamos nuestras instalaciones e incorporamos equipos de diagnosis modernos y servicios especializados en electricidad del automóvil e inyección."
         image: assets/img/timeline/2.jpg
         alt:
-      - title: "La plantilla Jekyll es creada"
-        year: "2019"
-        desc: "Ravi Riley convirtió Agency, una plantilla basada en Bootstrap, en una plantilla de Jekyll. La plantilla Jekyll puede ser instalada commo una gema de Ruby (Ruby gem) o remotamente. Para más información, visite la documentación."
+      - title: "Modernización Tecnológica"
+        year: "2015"
+        desc: "Invertimos en la última tecnología de diagnosis y equipos especializados para ofrecer el mejor servicio a los vehículos más modernos."
         image: assets/img/timeline/3.jpg
         alt: image alt text
-      - title: "Título"
-        year: "2009-2011"
-        desc: "Su descripción aquí, **Markdown** es soportado completamente."
+      - title: "Certificación Oficial"
+        year: "2020"
+        desc: "Obtuvimos las certificaciones oficiales para realizar revisiones y mantenimientos según especificaciones de fábrica de las principales marcas."
         image: assets/img/timeline/4.jpg
         alt:
         # you can enforce the alignment
         align: right
-    end: "¡Se parte <br> de Nuestra <br> Historia!"
+    end: "¡Confía en <br> Nuestra <br> Experiencia!"
 
   about:
-    title: "Sobre nosotros"
-    text: "nuestra historia"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    title: "Sobre Nosotros"
+    text: "Tu taller de confianza"
+    body: "En **Talleres EmarElCampello** llevamos más de 20 años cuidando de los vehículos de nuestros clientes en El Campello y alrededores. Somos un taller familiar que combina la experiencia tradicional con la tecnología más avanzada. Nuestro compromiso es ofrecer un servicio **honesto, profesional y personalizado**, porque entendemos que tu vehículo es una parte importante de tu día a día."
     section: nosotros
 
   clients:
-    section: clientes
+    section: marcas
     max-height: 100px
     horizontal-scrolling: "" #"yes/no"
     list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+      - title: "Bosch"
+        url: "#"
+        logo: assets/img/clients/bosch.jpg
+      - title: "Castrol"
+        url: "#"
+        logo: assets/img/clients/castrol.jpg
+      - title: "Michelin"
+        url: "#"
+        logo: assets/img/clients/michelin.jpg
+      - title: "NGK"
+        url: "#"
+        logo: assets/img/clients/ngk.jpg
 
   team:
-    title: "NUESTRO INCREÍBLE EQUIPO"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    title: "NUESTRO EQUIPO PROFESIONAL"
+    text: "Más de 20 años de experiencia a tu servicio"
+    subtext: Nuestro equipo está formado por profesionales altamente cualificados y en constante formación para ofrecer el mejor servicio con las últimas tecnologías del sector automotriz.
     section: equipo
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
+      - name: "Carlos Martínez"
+        role: "Jefe de Taller"
+        image: assets/img/team/1.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
           - url: https://facebook.com
             icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
+          - url: https://instagram.com
+            icon: fab fa-instagram
+      - name: "Miguel Ángel Ruiz"
+        role: "Especialista en Electricidad"
         image: assets/img/team/2.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
           - url: https://facebook.com
             icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
+          - url: https://instagram.com
+            icon: fab fa-instagram
+      - name: "Antonio López"
+        role: "Técnico en Mecánica"
+        image: assets/img/team/3.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
           - url: https://facebook.com
             icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+          - url: https://instagram.com
+            icon: fab fa-instagram
 
   contact:
-    title: "Contáctenos"
-    text: "Lorem ipsum or call 123456789"
+    title: "Contacta con Nosotros"
+    text: "Estamos aquí para ayudarte - Llámanos al 965 123 456"
     section: contacto
     name: "Nombre*"
     name-validation: "Por favor ingrese su nombre."
     email: "Correo Electrónico*"
     email-validation: "Por favor ingrese su correo electrónico."
-    phone: "Número Telefónico*"
-    phone-validation: "Por favor ingrese su número telefónico."
-    message: "Mensaje*"
-    message-validation: "Por favor escriba un mensaje."
-    subject: "Envío del formulario de contacto"
-    submit: "Enviar Mensaje"
+    phone: "Teléfono*"
+    phone-validation: "Por favor ingrese su número de teléfono."
+    message: "Describe el problema de tu vehículo*"
+    message-validation: "Por favor describa el problema o servicio que necesita."
+    subject: "Consulta desde la web - Talleres EmarElCampello"
+    submit: "Enviar Consulta"
 
   footer:
     legal: "Política de Privacidad"
     social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
+      - url: https://facebook.com/talleresemarelcampello
         icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
+      - url: https://instagram.com/talleresemarelcampello
         icon: "fab fa-instagram"
+      - url: tel:+34965123456
+        icon: "fas fa-phone"
+      - url: https://wa.me/34965123456
+        icon: "fab fa-whatsapp"
 es-ES:
   <<: *DEFAULT_ES
 es-CO:
