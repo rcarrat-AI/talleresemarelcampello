@@ -40,11 +40,11 @@ es: &DEFAULT_ES
   nav:
     - title: "Servicios"
       section: servicios
-    - title: "Nuestros Trabajos"
+    - title: "Servicios"
       section: portafolio
-    - title: "Nuestra Historia"
+    - title: "Historia"
       section: cronologia
-    - title: "Sobre Nosotros"
+    - title: "Acerca de Nosotros"
       section: nosotros
     - title: "Equipo"
       section: equipo
