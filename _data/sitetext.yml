@@ -136,10 +136,10 @@ es: &DEFAULT_ES
     section: servicios
     list:
       - title: "Servicio Rápido"
-        desc: "Cambio de aceite, filtros y mantenimiento básico mientras esperas. Servicio rápido y eficiente para tu día a día."
+        desc: "Cambio de aceite, filtros y mantenimiento básico. Servicio rápido y eficiente para tu día a día."
         icon: fas fa-clock
       - title: "Mecánica General"
-        desc: "Reparación y mantenimiento completo del motor, transmisión, frenos y sistemas mecánicos de tu vehículo."
+        desc: "Reparación y mantenimiento completo del motor, transmisión, frenos, distribución, embragues y sistemas mecánicos de tu vehículo."
         icon: fas fa-wrench
       - title: "Electricidad del Automóvil"
         desc: "Diagnóstico y reparación de sistemas eléctricos, alternadores, baterías y componentes electrónicos."
@@ -151,7 +151,7 @@ es: &DEFAULT_ES
         desc: "Mantenimiento, reparación y recarga del sistema de aire acondicionado de tu vehículo para tu máximo confort."
         icon: fas fa-car-side
       - title: "Pre-ITV"
-        desc: "Revisión completa antes de la ITV oficial para asegurar que tu vehículo pase sin problemas."
+        desc: "Revisión completa antes de la ITV oficial para asegurar que tu vehículo pase sin problemas. También ofrecemos el servicio de pasar la ITV por ti."
         icon: fas fa-clipboard-check
       - title: "Diagnosis Computerizada"
         desc: "Diagnóstico avanzado con equipos de última generación para detectar cualquier problema."
@@ -160,7 +160,7 @@ es: &DEFAULT_ES
         desc: "Venta, montaje, equilibrado y reparación de neumáticos. Todas las marcas y medidas."
         icon: fas fa-circle
       - title: "Recogida de Vehículos"
-        desc: "Servicio de recogida y entrega de tu vehículo en tu domicilio o lugar de trabajo."
+        desc: "Servicio de recogida y entrega de tu vehículo en tu domicilio o lugar de trabajo (sujeto a disponibilidad)."
         icon: fas fa-truck
 
   portfolio:
@@ -169,84 +169,30 @@ es: &DEFAULT_ES
     section: portafolio
     closebutton: "Cerrar"
 
-  timeline:
-    title: "Historia"
-    text: "Más de 20 años de experiencia en El Campello"
-    section: cronologia
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Fundación del Taller"
-        year: "2000"
-        desc: "Iniciamos nuestro camino como un pequeño taller familiar en El Campello, con la visión de ofrecer un servicio personalizado y de confianza a nuestros vecinos."
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "Expansión de Servicios"
-        year: "2008"
-        desc: "Ampliamos nuestras instalaciones e incorporamos equipos de diagnosis modernos y servicios especializados en electricidad del automóvil e inyección."
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "Modernización Tecnológica"
-        year: "2015"
-        desc: "Invertimos en la última tecnología de diagnosis y equipos especializados para ofrecer el mejor servicio a los vehículos más modernos."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Certificación Oficial"
-        year: "2020"
-        desc: "Obtuvimos las certificaciones oficiales para realizar revisiones y mantenimientos según especificaciones de fábrica de las principales marcas."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "¡Confía en <br> Nuestra <br> Experiencia!"
-
   about:
     title: "Acerca de Nosotros"
-    text: "Tu taller de confianza"
-    body: "En **Talleres EmarElCampello** llevamos más de 20 años cuidando de los vehículos de nuestros clientes en El Campello y alrededores. Somos un taller familiar que combina la experiencia tradicional con la tecnología más avanzada. Nuestro compromiso es ofrecer un servicio **honesto, profesional y personalizado**, porque entendemos que tu vehículo es una parte importante de tu día a día.<br><br>**Somos parte de talleres autorizados de AD** - Tu garantía de calidad y profesionalidad en cada servicio."
+    text: "Tu taller de confianza desde 1982"
+    body: "**Talleres EmarElCampello** se fundó en **1982** como un taller familiar que ha dedicado más de 40 años al cuidado y mantenimiento de vehículos en El Campello y alrededores.<br><br>Para nosotros, **lo más importante son nuestros clientes**. Siempre buscamos lo mejor para ellos y sus vehículos, tanto en **calidad como en precio**. Nuestra filosofía se basa en ofrecer un servicio personalizado, honesto y profesional, porque entendemos que cada cliente y cada vehículo tiene necesidades únicas.<br><br>**Trabajamos con las marcas más reconocidas y recambios oficiales**, siempre ofreciendo la mejor relación calidad‑precio. Como **taller autorizado de AD Parts**, garantizamos la calidad y profesionalidad en cada servicio que realizamos."
     section: nosotros
-
-  clients:
-    title: "Nuestras Marcas de Confianza"
-    text: "Estas y muchas más, son nuestras marcas. Siempre calidad en nuestros recambios."
-    section: marcas
-    max-height: 120px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "AD Parts"
-        url: "#"
-        logo: assets/img/clients/ad-parts.webp
-      - title: "Bosch"
-        url: "#"
-        logo: assets/img/clients/bosch.jpg
-      - title: "Castrol"
-        url: "#"
-        logo: assets/img/clients/castrol.jpg
-      - title: "Michelin"
-        url: "#"
-        logo: assets/img/clients/michelin.jpg
-      - title: "NGK"
-        url: "#"
-        logo: assets/img/clients/ngk.jpg
-
 
   contact:
     title: "Contacta con Nosotros"
-    text: '<div class="contact-info-enhanced">
-      <div class="contact-item">
-        <i class="fas fa-phone contact-icon"></i>
-        <div class="contact-details">
-          <span class="contact-label">Teléfono</span>
-          <a href="tel:+34965630331" class="contact-number">965 630 331</a>
-        </div>
-      </div>
-      <div class="contact-item">
-        <i class="fab fa-whatsapp contact-icon whatsapp-color"></i>
-        <div class="contact-details">
-          <span class="contact-label">WhatsApp</span>
-          <a href="https://wa.me/34667640479" class="contact-number whatsapp-link" target="_blank">667 640 479</a>
-        </div>
-      </div>
+    text: '<div class="contact-info-inline">
+      <p class="contact-line">
+        <span class="contact-label">Dirección:</span> 
+        <span class="contact-value">San Ramón 32, El Campello, Alicante</span>
+      </p>
+      <p class="contact-line">
+        <span class="contact-label">Teléfono:</span> 
+        <a href="tel:+34965630331" class="contact-value contact-link">965 630 331</a>
+      </p>
+      <p class="contact-line">
+        <span class="contact-label">WhatsApp:</span> 
+        <a href="https://wa.me/34667640479" class="contact-value contact-link whatsapp" target="_blank">667 640 479</a>
+      </p>
+    </div>
+    <div class="contact-map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3131.8473!2d-0.3952!3d38.4382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6236a70b6e4a6b%3A0x8c5e5a5a5a5a5a5a!2sSan%20Ramon%2032%2C%2003560%20el%20Campello%2C%20Alicante!5e0!3m2!1sen!2ses!4v1642345678901!5m2!1sen!2ses" width="100%" height="300" style="border:0; border-radius: 8px; margin-top: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>'
     section: contacto
     name: "Nombre*"

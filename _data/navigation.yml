@@ -30,9 +30,7 @@ es: &DEFAULT_ES
       section: servicios
     - title: "Especialidades"
       section: portafolio
-    - title: "Historia"
-      section: cronologia
-    - title: "Acerca de Nosotros"
+    - title: "Nosotros"
       section: nosotros
     - title: "Contacto"
       section: contacto

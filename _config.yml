@@ -17,10 +17,10 @@ remote_theme: raviriley/agency-jekyll-theme
 url    : "https://talleresemarelcampello.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title      : Talleres EmarElCampello
+title      : Talleres Emar ElCampello
 email      : talleresemarelcampello@gmail.com #this is also the email contact forms will go to
-description: "Talleres EmarElCampello - Tu taller de confianza en El Campello"
-author     : Talleres EmarElCampello
+description: "Talleres Emar ElCampello - Tu taller de confianza en El Campello"
+author     : Talleres Emar ElCampello
 favicon    : "favicon.ico" # path to favicon
 custom_css : "assets/css/custom.css" # Custom CSS for better readability
 # logo:     #optional, defaults to site title

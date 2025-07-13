@@ -5,7 +5,7 @@ image: assets/img/portfolio/01-full.jpg
 alt: Servicio de mecánica general
 
 caption:
-  title: Mecánica
+  title: Mecánica General
   subtitle: Reparación Integral
   thumbnail: assets/img/portfolio/01-thumbnail.jpg
 ---
