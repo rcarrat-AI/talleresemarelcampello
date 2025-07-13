@@ -7,32 +7,20 @@
 # How to use:
 # {{ site.data.navigation[site.locale].nav.<var_name> | default: 'text' }}
 
-# English (default)
+# English (default) - Disabled since we only use Spanish
 # -----------------
-en: &DEFAULT_EN
-  nav:
-    - title: "Services"
-      section: services
-    - title: "Portfolio"
-      section: portfolio
-    - title: "About"
-      section: about
-    - title: "Timeline"
-      section: timeline
-    - title: "Team"
-      section: team
-    - title: "Contact"
-      section: contact
-    - title: "Theme Source"
-      url: https://github.com/raviriley/agency-jekyll-theme/
-en-US:
-  <<: *DEFAULT_EN
-en-CA:
-  <<: *DEFAULT_EN
-en-GB:
-  <<: *DEFAULT_EN
-en-AU:
-  <<: *DEFAULT_EN
+# en: &DEFAULT_EN
+#   nav:
+#     - title: "Services"
+#       section: services
+#     - title: "Portfolio"  
+#       section: portfolio
+#     - title: "About"
+#       section: about
+#     - title: "Timeline"
+#       section: timeline
+#     - title: "Contact"
+#       section: contact
 
 # Spanish
 # -------
@@ -40,7 +28,7 @@ es: &DEFAULT_ES
   nav:
     - title: "Servicios"
       section: servicios
-    - title: "Servicios"
+    - title: "Especialidades"
       section: portafolio
     - title: "Historia"
       section: cronologia
@@ -48,9 +36,9 @@ es: &DEFAULT_ES
       section: nosotros
     - title: "Contacto"
       section: contacto
-    - title: "📞 965 630 331"
+    - title: '<i class="fas fa-phone"></i> Teléfono'
       url: "tel:+34965630331"
-    - title: "📱 WhatsApp"
+    - title: '<i class="fab fa-whatsapp"></i> WhatsApp'
       url: "https://wa.me/34667640479"
 es-ES:
   <<: *DEFAULT_ES

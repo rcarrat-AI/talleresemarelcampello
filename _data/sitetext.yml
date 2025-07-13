@@ -92,42 +92,6 @@ en: &DEFAULT_EN
         url: https://github.com/raviriley/agency-jekyll-theme
         logo: assets/img/clients/creative-market.jpg
 
-  team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: team
-    people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
 
   contact:
     title: "Contact Us"
@@ -198,13 +162,10 @@ es: &DEFAULT_ES
       - title: "Recogida de Vehículos"
         desc: "Servicio de recogida y entrega de tu vehículo en tu domicilio o lugar de trabajo."
         icon: fas fa-truck
-      - title: "Revisión Oficial"
-        desc: "Revisiones oficiales y mantenimiento según las especificaciones del fabricante."
-        icon: fas fa-certificate
 
   portfolio:
-    title: "Somos especialistas en"
-    text: "Conoce todos nuestros servicios especializados"
+    title: "Especialidades"
+    text: "Conoce nuestros servicios especializados de automoción"
     section: portafolio
     closebutton: "Cerrar"
 
@@ -242,14 +203,19 @@ es: &DEFAULT_ES
   about:
     title: "Acerca de Nosotros"
     text: "Tu taller de confianza"
-    body: "En **Talleres EmarElCampello** llevamos más de 20 años cuidando de los vehículos de nuestros clientes en El Campello y alrededores. Somos un taller familiar que combina la experiencia tradicional con la tecnología más avanzada. Nuestro compromiso es ofrecer un servicio **honesto, profesional y personalizado**, porque entendemos que tu vehículo es una parte importante de tu día a día."
+    body: "En **Talleres EmarElCampello** llevamos más de 20 años cuidando de los vehículos de nuestros clientes en El Campello y alrededores. Somos un taller familiar que combina la experiencia tradicional con la tecnología más avanzada. Nuestro compromiso es ofrecer un servicio **honesto, profesional y personalizado**, porque entendemos que tu vehículo es una parte importante de tu día a día.<br><br>**Somos parte de talleres autorizados de AD** - Tu garantía de calidad y profesionalidad en cada servicio."
     section: nosotros
 
   clients:
+    title: "Nuestras Marcas de Confianza"
+    text: "Estas y muchas más, son nuestras marcas. Siempre calidad en nuestros recambios."
     section: marcas
-    max-height: 100px
+    max-height: 120px
     horizontal-scrolling: "" #"yes/no"
     list:
+      - title: "AD Parts"
+        url: "#"
+        logo: assets/img/clients/ad-parts.webp
       - title: "Bosch"
         url: "#"
         logo: assets/img/clients/bosch.jpg
@@ -303,10 +269,6 @@ es: &DEFAULT_ES
         icon: "fas fa-mobile-alt"
       - url: https://wa.me/34667640479
         icon: "fab fa-whatsapp"
-      - url: https://facebook.com/talleresemarelcampello
-        icon: "fab fa-facebook-f"
-      - url: https://instagram.com/talleresemarelcampello
-        icon: "fab fa-instagram"
 es-ES:
   <<: *DEFAULT_ES
 es-CO:

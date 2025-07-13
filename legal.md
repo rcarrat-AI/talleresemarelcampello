@@ -1,37 +1,69 @@
 ---
 layout: page
-title: Privacy Policy
+title: Política de Privacidad y Cookies
 ---
+
 <div class="col-lg-12 text-center">
-	<h2 class="section-heading text-uppercase">Privacy Policy</h2>
+	<h2 class="section-heading text-uppercase">Política de Privacidad y Cookies</h2>
 </div>
 
-This Privacy Policy describes how your personal information is collected, used, and shared when you visit {{ site.title }} (the “Site”).
+## Información sobre Cookies
 
-**PERSONAL INFORMATION WE COLLECT**
+**Talleres EmarElCampello** utiliza cookies para mejorar la experiencia de navegación en nuestro sitio web y ofrecerte el mejor servicio posible.
 
+### ¿Qué son las cookies?
+
+Las cookies son pequeños archivos de texto que se almacenan en tu dispositivo cuando visitas un sitio web. Nos ayudan a recordar tus preferencias y a mejorar tu experiencia de navegación.
+
+### Tipos de cookies que utilizamos
+
+#### Cookies técnicas (necesarias)
+- **Finalidad**: Permiten el funcionamiento básico del sitio web
+- **Duración**: Sesión
+- **Obligatorias**: Sí (necesarias para el funcionamiento del sitio)
+
+#### Cookies analíticas (opcionales)
 {% if site.analytics.google %}
+- **Finalidad**: Nos ayudan a entender cómo los usuarios interactúan con nuestro sitio web
+- **Proveedor**: Google Analytics
+- **Duración**: Hasta 2 años
+- **Obligatorias**: No (requieren tu consentimiento)
 
-Automatically Collected (Google Analytics):
+Recopilamos información sobre tu dispositivo y cómo interactúas con nuestro sitio web usando Google Analytics. Puedes obtener más información sobre las políticas de privacidad de Google en: <https://www.google.com/intl/es/policies/privacy/>
 
-When you visit the Site, we automatically receive information about your device from your browser, such as your IP address. As you browse the Site, we also collect information about how you interact with the Site. We refer to this automatically-collected information as “Device Information”.
-
-We collect Device Information using cookies. “Cookies” are data files that are placed on your device. For more information about cookies and how to disable them, visit http://www.allaboutcookies.org.
-
-We do this using Google Analytics: <https://www.google.com/intl/en/policies/privacy/>.
-
-You can opt-out of Google Analytics here: <https://tools.google.com/dlpage/gaoptout>.
-
+Puedes desactivar Google Analytics aquí: <https://tools.google.com/dlpage/gaoptout>
 {% else %}
-
-We do not collect any data about you or use any cookies.
-
+- **Estado**: No utilizamos cookies analíticas en este momento
 {% endif %}
 
-**CHANGES**
+### Gestión de cookies
 
-We may update this privacy policy from time to time for personal, operational, legal, or regulatory reasons.
+Puedes gestionar tus preferencias de cookies en cualquier momento:
 
-**CONTACT US**
+1. **Aceptar todas las cookies**: Permitirá el uso de cookies técnicas y analíticas
+2. **Rechazar cookies opcionales**: Solo se utilizarán las cookies técnicas necesarias
+3. **Cambiar preferencias**: Puedes modificar tus preferencias en cualquier momento
 
-For more information about our privacy practices or if you have questions, please contact us by email at <a href="mailto:{{ site.email }}">{{ site.email }}</a>.
+### Tus derechos
+
+Tienes derecho a:
+- Retirar tu consentimiento en cualquier momento
+- Acceder a la información sobre las cookies utilizadas
+- Eliminar las cookies de tu navegador
+
+### Información de contacto
+
+Para cualquier consulta sobre nuestra política de cookies:
+
+**Talleres EmarElCampello**  
+<i class="fas fa-phone"></i> Teléfono: 965 630 331  
+<i class="fab fa-whatsapp"></i> WhatsApp: 667 640 479  
+<i class="fas fa-envelope"></i> Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+
+### Cambios en esta política
+
+Podemos actualizar esta política de privacidad ocasionalmente por motivos personales, operativos, legales o regulatorios.
+
+---
+
+*En cumplimiento del Reglamento General de Protección de Datos (RGPD) y la Ley Orgánica de Protección de Datos Personales y garantía de los derechos digitales.*

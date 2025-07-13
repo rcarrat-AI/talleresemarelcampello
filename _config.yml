@@ -43,3 +43,7 @@ markdown: kramdown
 
 plugins:
   - jekyll-remote-theme
+
+# Custom JavaScript files to include after footer
+after_footer_scripts:
+  - /assets/js/cookie-consent.js
