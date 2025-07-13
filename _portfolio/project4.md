@@ -1,15 +1,15 @@
 ---
-title: Aire Acondicionado
+title: Climatización
 subtitle: Reparación y mantenimiento del sistema de climatización
 image: assets/img/portfolio/04-full.jpg
-alt: Servicio de aire acondicionado
+alt: Reparación y mantenimiento automotriz
 
 caption:
-  title: Clima
-  subtitle: Climatización
+  title: Climatización
+  subtitle: Sistema de A/C Automotriz
   thumbnail: assets/img/portfolio/04-thumbnail.jpg
 ---
-Servicio completo de **aire acondicionado** y climatización.
+Servicio completo de **climatización automotriz** y sistemas de aire acondicionado vehicular.
 
 {:.list-inline}
 - Recarga de gas refrigerante
