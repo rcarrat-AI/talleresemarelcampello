@@ -212,13 +212,13 @@ es: &DEFAULT_ES
         icon: fas fa-certificate
 
   portfolio:
-    title: "Nuestros Trabajos"
-    text: "Algunos de nuestros servicios especializados"
+    title: "Servicios"
+    text: "Conoce todos nuestros servicios especializados"
     section: portafolio
     closebutton: "Cerrar"
 
   timeline:
-    title: "Nuestra Historia"
+    title: "Historia"
     text: "Más de 20 años de experiencia en El Campello"
     section: cronologia
     # left is the default
@@ -249,7 +249,7 @@ es: &DEFAULT_ES
     end: "¡Confía en <br> Nuestra <br> Experiencia!"
 
   about:
-    title: "Sobre Nosotros"
+    title: "Acerca de Nosotros"
     text: "Tu taller de confianza"
     body: "En **Talleres EmarElCampello** llevamos más de 20 años cuidando de los vehículos de nuestros clientes en El Campello y alrededores. Somos un taller familiar que combina la experiencia tradicional con la tecnología más avanzada. Nuestro compromiso es ofrecer un servicio **honesto, profesional y personalizado**, porque entendemos que tu vehículo es una parte importante de tu día a día."
     section: nosotros
