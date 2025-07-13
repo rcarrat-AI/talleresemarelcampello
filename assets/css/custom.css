@@ -324,11 +324,11 @@
 }
 
 .contact-link.whatsapp {
-    color: #25d366;
+    color: #25d366 !important;
 }
 
 .contact-link.whatsapp:hover {
-    color: #20b954;
+    color: #20b954 !important;
 }
 
 @media (max-width: 768px) {
