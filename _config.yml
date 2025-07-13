@@ -19,7 +19,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : Talleres EmarElCampello
 email      : talleresemarelcampello@gmail.com #this is also the email contact forms will go to
-description: "Talleres EmarElCampello - Professional services and workshops"
+description: "Talleres EmarElCampello - Tu taller de confianza en El Campello"
 author     : Talleres EmarElCampello
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg
