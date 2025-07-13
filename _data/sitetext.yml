@@ -305,7 +305,7 @@ es: &DEFAULT_ES
 
   contact:
     title: "Contacta con Nosotros"
-    text: "Estamos aquí para ayudarte - Llámanos al 965 123 456"
+    text: "📞 Fijo: 965 630 331 | 📱 Móvil: 667 640 479 | WhatsApp disponible"
     section: contacto
     name: "Nombre*"
     name-validation: "Por favor ingrese su nombre."
@@ -321,14 +321,16 @@ es: &DEFAULT_ES
   footer:
     legal: "Política de Privacidad"
     social:
+      - url: tel:+34965630331
+        icon: "fas fa-phone"
+      - url: tel:+34667640479
+        icon: "fas fa-mobile-alt"
+      - url: https://wa.me/34667640479
+        icon: "fab fa-whatsapp"
       - url: https://facebook.com/talleresemarelcampello
         icon: "fab fa-facebook-f"
       - url: https://instagram.com/talleresemarelcampello
         icon: "fab fa-instagram"
-      - url: tel:+34965123456
-        icon: "fas fa-phone"
-      - url: https://wa.me/34965123456
-        icon: "fab fa-whatsapp"
 es-ES:
   <<: *DEFAULT_ES
 es-CO:

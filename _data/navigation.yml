@@ -50,6 +50,10 @@ es: &DEFAULT_ES
       section: equipo
     - title: "Contacto"
       section: contacto
+    - title: "📞 965 630 331"
+      url: "tel:+34965630331"
+    - title: "📱 WhatsApp"
+      url: "https://wa.me/34667640479"
 es-ES:
   <<: *DEFAULT_ES
 es-CO:
