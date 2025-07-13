@@ -170,8 +170,8 @@ en-AU:
 # -------
 es: &DEFAULT_ES
   header:
-    title: ¡Bienvenido a Talleres EmarElCampello!
-    text: Tu taller de confianza en El Campello
+    title: Talleres EmarElCampello
+    text: Más de 20 años siendo tu taller de confianza en El Campello
     button: Nuestros Servicios
     buttonlink: "#servicios"
 
@@ -272,36 +272,36 @@ es: &DEFAULT_ES
         url: "#"
         logo: assets/img/clients/ngk.jpg
 
-  team:
-    title: "NUESTRO EQUIPO PROFESIONAL"
-    text: "Más de 20 años de experiencia a tu servicio"
-    subtext: Nuestro equipo está formado por profesionales altamente cualificados y en constante formación para ofrecer el mejor servicio con las últimas tecnologías del sector automotriz.
-    section: equipo
-    people:
-      - name: "Carlos Martínez"
-        role: "Jefe de Taller"
-        image: assets/img/team/1.jpg
-        social:
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://instagram.com
-            icon: fab fa-instagram
-      - name: "Miguel Ángel Ruiz"
-        role: "Especialista en Electricidad"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://instagram.com
-            icon: fab fa-instagram
-      - name: "Antonio López"
-        role: "Técnico en Mecánica"
-        image: assets/img/team/3.jpg
-        social:
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://instagram.com
-            icon: fab fa-instagram
+# team:
+#   title: "NUESTRO EQUIPO PROFESIONAL"
+#   text: "Más de 20 años de experiencia a tu servicio"
+#   subtext: Nuestro equipo está formado por profesionales altamente cualificados y en constante formación para ofrecer el mejor servicio con las últimas tecnologías del sector automotriz.
+#   section: equipo
+#   people:
+#     - name: "Carlos Martínez"
+#       role: "Jefe de Taller"
+#       image: assets/img/team/1.jpg
+#       social:
+#         - url: https://facebook.com
+#           icon: fab fa-facebook-f
+#         - url: https://instagram.com
+#           icon: fab fa-instagram
+#     - name: "Miguel Ángel Ruiz"
+#       role: "Especialista en Electricidad"
+#       image: assets/img/team/2.jpg
+#       social:
+#         - url: https://facebook.com
+#           icon: fab fa-facebook-f
+#         - url: https://instagram.com
+#           icon: fab fa-instagram
+#     - name: "Antonio López"
+#       role: "Técnico en Mecánica"
+#       image: assets/img/team/3.jpg
+#       social:
+#         - url: https://facebook.com
+#           icon: fab fa-facebook-f
+#         - url: https://instagram.com
+#           icon: fab fa-instagram
 
   contact:
     title: "Contacta con Nosotros"

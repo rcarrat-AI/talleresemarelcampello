@@ -46,8 +46,6 @@ es: &DEFAULT_ES
       section: cronologia
     - title: "Acerca de Nosotros"
       section: nosotros
-    - title: "Equipo"
-      section: equipo
     - title: "Contacto"
       section: contacto
     - title: "📞 965 630 331"

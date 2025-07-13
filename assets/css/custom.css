@@ -3,6 +3,9 @@
 /* Add dark overlay to header for better text contrast */
 .masthead {
     position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 .masthead::before {
@@ -12,7 +15,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.4); /* Dark overlay */
+    background: linear-gradient(135deg, rgba(44, 62, 80, 0.7) 0%, rgba(0, 0, 0, 0.5) 100%);
     z-index: 1;
 }
 
@@ -23,25 +26,58 @@
 }
 
 /* Enhanced text styling for header */
-.masthead h1,
-.masthead .intro-text {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+.masthead h1 {
+    font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1.2;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.9);
     color: #ffffff !important;
+    letter-spacing: -1px;
+    margin-bottom: 25px;
+}
+
+.masthead .intro-text {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    color: #f8f9fa !important;
+    margin-bottom: 30px;
+    opacity: 0.95;
+}
+
+@media (max-width: 768px) {
+    .masthead h1 {
+        font-size: 2.5rem;
+    }
+    
+    .masthead .intro-text {
+        font-size: 1.2rem;
+    }
 }
 
 /* Button styling for better visibility */
 .masthead .btn {
-    background-color: #ff6900;
-    border-color: #ff6900;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(45deg, #ff6900, #ff8f00);
+    border: none;
+    border-radius: 50px;
+    padding: 15px 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    box-shadow: 0 8px 25px rgba(255, 105, 0, 0.3);
+    text-shadow: none;
+    transition: all 0.3s ease;
 }
 
 .masthead .btn:hover {
-    background-color: #e55100;
-    border-color: #e55100;
-    transform: translateY(-2px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    background: linear-gradient(45deg, #e55100, #ef6c00);
+    transform: translateY(-3px);
+    box-shadow: 0 12px 35px rgba(255, 105, 0, 0.4);
 }
 
 /* Automotive theme colors */
