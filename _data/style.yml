@@ -1,7 +1,9 @@
-#Color Customization
-#highlight: "#54bfff"
-#white: "#FF0000"
-#black: "#000"
+#Color Customization - Enhanced for better readability
+highlight: "#ff6900"  # Orange accent color for automotive theme
+white: "#ffffff"      # Pure white for text
+black: "#1a1a1a"      # Slightly softer black
+primary: "#2c3e50"    # Dark blue-gray for headers
+secondary: "#34495e"  # Medium gray for secondary text
 
 #Image Customization
 header-image: "../img/header-bg.jpg"

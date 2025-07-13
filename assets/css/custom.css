@@ -1,0 +1,64 @@
+/* Custom CSS for improved text readability on header */
+
+/* Add dark overlay to header for better text contrast */
+.masthead {
+    position: relative;
+}
+
+.masthead::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4); /* Dark overlay */
+    z-index: 1;
+}
+
+/* Ensure text is above overlay */
+.masthead .container {
+    position: relative;
+    z-index: 2;
+}
+
+/* Enhanced text styling for header */
+.masthead h1,
+.masthead .intro-text {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    color: #ffffff !important;
+}
+
+/* Button styling for better visibility */
+.masthead .btn {
+    background-color: #ff6900;
+    border-color: #ff6900;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.masthead .btn:hover {
+    background-color: #e55100;
+    border-color: #e55100;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Automotive theme colors */
+.text-primary {
+    color: #ff6900 !important;
+}
+
+.bg-primary {
+    background-color: #2c3e50 !important;
+}
+
+/* Service icons styling */
+.service-heading {
+    color: #2c3e50;
+}
+
+/* Portfolio item hover effects */
+.portfolio-item .portfolio-hover {
+    background: rgba(255, 105, 0, 0.9);
+}
