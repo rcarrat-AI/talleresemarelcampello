@@ -88,6 +88,12 @@
 }
 
 /* Portfolio item hover effects */
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
 .portfolio-item .portfolio-hover {
     background: rgba(255, 105, 0, 0.9) !important;
     position: absolute;
@@ -97,9 +103,10 @@
     left: 0;
     opacity: 0;
     transition: all 0.3s ease;
-    display: flex;
+    display: flex !important;
     align-items: center;
     justify-content: center;
+    z-index: 2;
 }
 
 .portfolio-item:hover .portfolio-hover {
@@ -109,19 +116,34 @@
 .portfolio-item .portfolio-hover-content {
     color: white !important;
     text-align: center;
+    font-size: 3rem;
+    z-index: 3;
 }
 
-.portfolio-item {
-    position: relative;
-    overflow: hidden;
+.portfolio-item .portfolio-hover-content i {
+    color: white !important;
 }
 
 .portfolio-item img {
     transition: transform 0.3s ease;
+    width: 100%;
+    height: auto;
 }
 
 .portfolio-item:hover img {
     transform: scale(1.05);
+}
+
+/* Ensure portfolio link covers the whole area */
+.portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+}
+
+/* Fix for portfolio icons */
+.portfolio-item .fa-plus {
+    color: white !important;
+    font-size: 3rem !important;
 }
 
 /* Floating WhatsApp Button */
