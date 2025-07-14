@@ -1,0 +1,64 @@
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand js-scroll-trigger" href="
+    {%- if page.locale == 'en' -%}/en/{%- elsif page.locale == 'de' -%}/de/{%- else -%}/{%- endif -%}#page-top">
+      {{ site.title }}
+    </a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav text-uppercase ml-auto">
+        
+        <!-- Main Navigation Items -->
+        {% assign current_locale = page.locale | default: site.locale | default: "es" %}
+        {% assign nav_items = site.data.navigation[current_locale].nav %}
+        {% if nav_items %}
+          {% for nav in nav_items %}
+            <li class="nav-item">
+              {% if nav.url %}
+                <a class="nav-link js-scroll-trigger" href="{{ nav.url }}">{{ nav.title }}</a>
+              {% else %}
+                <a class="nav-link js-scroll-trigger" href="#{{ nav.section }}">{{ nav.title }}</a>
+              {% endif %}
+            </li>
+          {% endfor %}
+        {% endif %}
+        
+        <!-- Language Switcher -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            {% if current_locale == 'en' %}
+              <i class="fas fa-globe"></i> EN
+            {% elsif current_locale == 'de' %}
+              <i class="fas fa-globe"></i> DE
+            {% else %}
+              <i class="fas fa-globe"></i> ES
+            {% endif %}
+          </a>
+          <div class="dropdown-menu" aria-labelledby="languageDropdown">
+            {% if current_locale != 'es' %}
+              <a class="dropdown-item" href="/">
+                <i class="fas fa-flag"></i> Español
+              </a>
+            {% endif %}
+            {% if current_locale != 'en' %}
+              <a class="dropdown-item" href="/en/">
+                <i class="fas fa-flag"></i> English
+              </a>
+            {% endif %}
+            {% if current_locale != 'de' %}
+              <a class="dropdown-item" href="/de/">
+                <i class="fas fa-flag"></i> Deutsch
+              </a>
+            {% endif %}
+          </div>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- End Navigation -->

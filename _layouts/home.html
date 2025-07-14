@@ -1,0 +1,525 @@
+---
+---
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+  
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="{{ site.description | default: site.github.project_tagline }}">
+  <meta name="author" content="{{ site.author }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+  <title>{{ site.title }}</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="{{ '/assets/css/bootstrap.min.css' | relative_url }}" rel="stylesheet" />
+
+  <!-- Custom fonts for this template -->
+  <link href="{{ '/assets/css/all.min.css' | relative_url }}" rel="stylesheet" type="text/css">
+  
+    {% for font in site.data.style.web-fonts %}
+      <link href="{{ font.url }}" rel="stylesheet" type="text/css">
+    {% endfor %}
+  
+  <!-- Custom styles for this theme -->
+  <!--<link href="assets/css/agency.min.css" rel="stylesheet">-->
+  <link href="{{ '/assets/css/agency.css' | relative_url }}" rel="stylesheet" />
+  
+  <!-- Custom CSS for improved header styling -->
+  <link href="{{ '/assets/css/custom.css' | relative_url }}" rel="stylesheet" />
+
+  <!-- Page container change top padding when nav shrinks -->
+  {% if site.data.style.page-padding %}
+  <style>
+    #pagecontainer {
+      padding-top: {{ site.data.style.page-padding.padding-top }};
+    }
+    @media only screen and (max-width: 991px) {
+      #pagecontainer {
+        padding-top: {{ site.data.style.page-padding.padding-top-mobile }};
+      }
+    }
+  </style>
+  {% endif %}
+</head>
+
+
+  <body id="page-top">
+{% assign current_locale = page.locale | default: site.locale | default: "es" %}
+{% assign page_lang = current_locale | slice: 0, 2 %}
+{% assign sitetext = site.data.sitetext[page_lang] %}
+
+<!-- Navigation -->
+{% include nav.html %}
+
+<!-- Header -->
+<header class="masthead">
+  <div class="container">
+    <div class="intro-text">
+      <div class="intro-lead-in">
+        <p>{{ sitetext.header.title }}</p>
+      </div>
+      <div class="intro-heading text-uppercase">
+        <p>{{ sitetext.header.text }}</p>
+      </div>
+      <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ sitetext.header.buttonlink }}">{{ sitetext.header.button }}</a>
+    </div>
+  </div>
+</header>
+<!-- End Header -->
+
+<!-- Services -->
+<section class="page-section" id="{{ sitetext.services.section }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ sitetext.services.title }}</h2>
+        <h3 class="section-subheading text-muted">{{ sitetext.services.text }}</h3>
+      </div>
+    </div>
+    <div class="row text-center">
+      {% for service in sitetext.services.list %}
+        <div class="col-md-4">
+          <span class="fa-stack fa-4x">
+            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+            <i class="{{ service.icon }} fa-stack-1x fa-inverse"></i>
+          </span>
+          <h4 class="service-heading">{{ service.title }}</h4>
+          <div class="text-muted">{{ service.desc }}</div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<!-- End Services -->
+
+<!-- Portfolio Grid -->
+<section class="bg-light page-section" id="{{ sitetext.portfolio.section }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ sitetext.portfolio.title }}</h2>
+        <h3 class="section-subheading text-muted">{{ sitetext.portfolio.text }}</h3>
+      </div>
+    </div>
+    <div class="row">
+      
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#p1">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="{{ '/assets/img/portfolio/01-thumbnail.jpg' | relative_url }}" alt="Mecánico trabajando en reparación de motor - Talleres EmarElCampello">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Mecánica General</h4>
+            <p class="text-muted">Reparación Integral</p>
+          </div>
+        </div>
+      
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#p2">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="{{ '/assets/img/portfolio/02-thumbnail.jpg' | relative_url }}" alt="Servicio de electricidad del automóvil">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Electricidad</h4>
+            <p class="text-muted">Diagnosis Computerizada</p>
+          </div>
+        </div>
+      
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#p3">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="{{ '/assets/img/portfolio/03-thumbnail.jpg' | relative_url }}" alt="Servicio de inyección y diagnosis">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Inyección</h4>
+            <p class="text-muted">Diagnosis Avanzada</p>
+          </div>
+        </div>
+      
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#p4">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="{{ '/assets/img/portfolio/04-thumbnail.jpg' | relative_url }}" alt="Servicio de climatización automotriz - Talleres EmarElCampello">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Climatización</h4>
+            <p class="text-muted">Sistema de A/C Automotriz</p>
+          </div>
+        </div>
+      
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#p5">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="{{ '/assets/img/portfolio/05-thumbnail.jpg' | relative_url }}" alt="Servicio de neumáticos">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Neumáticos</h4>
+            <p class="text-muted">Montaje y Equilibrado</p>
+          </div>
+        </div>
+      
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#p6">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="{{ '/assets/img/portfolio/06-thumbnail.jpg' | relative_url }}" alt="Servicio de Pre-ITV">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Pre-ITV</h4>
+            <p class="text-muted">Revisión Completa</p>
+          </div>
+        </div>
+      
+    </div>
+  </div>
+</section>
+
+<!-- Portfolio Modals -->
+
+<div class="portfolio-modal modal fade" id="p1" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <h2 class="text-uppercase">Mecánica General</h2>
+              <p class="item-intro text-muted">Reparación y mantenimiento integral</p>
+              <img class="img-fluid d-block mx-auto" src="{{ '/assets/img/portfolio/01-full.jpg' | relative_url }}" alt="Mecánico trabajando en reparación de motor - Talleres EmarElCampello"/>
+              <p><p>Servicio completo de <strong>mecánica general</strong> para todo tipo de vehículos.</p>
+
+<ul class="list-inline">
+  <li>Reparación de motores</li>
+  <li>Sistemas de frenos</li>
+  <li>Transmisión y embrague</li>
+  <li>Suspensión y dirección</li>
+</ul>
+
+</p>
+              <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fas fa-times"></i>
+                {{ sitetext.portfolio.closebutton }}
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="p2" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <h2 class="text-uppercase">Electricidad del Automóvil</h2>
+              <p class="item-intro text-muted">Diagnóstico y reparación de sistemas eléctricos</p>
+              <img class="img-fluid d-block mx-auto" src="{{ '/assets/img/portfolio/02-full.jpg' | relative_url }}" alt="Servicio de electricidad del automóvil"/>
+              <p><p>Especialistas en <strong>electricidad del automóvil</strong> con equipos de diagnóstico avanzado.</p>
+
+<ul class="list-inline">
+  <li>Alternadores y motores de arranque</li>
+  <li>Sistemas de carga</li>
+  <li>Reparación de centralitas</li>
+  <li>Instalaciones eléctricas</li>
+</ul>
+
+</p>
+              <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fas fa-times"></i>
+                {{ sitetext.portfolio.closebutton }}
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="p3" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <h2 class="text-uppercase">Inyección y Diagnosis</h2>
+              <p class="item-intro text-muted">Sistemas de inyección y diagnóstico computerizado</p>
+              <img class="img-fluid d-block mx-auto" src="{{ '/assets/img/portfolio/03-full.jpg' | relative_url }}" alt="Servicio de inyección y diagnosis"/>
+              <p><p>Servicio especializado en <strong>sistemas de inyección</strong> y <strong>diagnosis computerizada</strong>.</p>
+
+<ul class="list-inline">
+  <li>Sistemas de inyección diésel y gasolina</li>
+  <li>Diagnosis computerizada</li>
+  <li>Reparación de inyectores</li>
+  <li>Optimización del motor</li>
+</ul>
+
+</p>
+              <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fas fa-times"></i>
+                {{ sitetext.portfolio.closebutton }}
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="p4" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <h2 class="text-uppercase">Climatización</h2>
+              <p class="item-intro text-muted">Reparación y mantenimiento del sistema de climatización</p>
+              <img class="img-fluid d-block mx-auto" src="{{ '/assets/img/portfolio/04-full.jpg' | relative_url }}" alt="Servicio de climatización automotriz - Talleres EmarElCampello"/>
+              <p><p>Servicio completo de <strong>climatización automotriz</strong> y sistemas de aire acondicionado vehicular.</p>
+
+<ul class="list-inline">
+  <li>Recarga de gas refrigerante</li>
+  <li>Reparación de compresores</li>
+  <li>Limpieza y desinfección</li>
+  <li>Mantenimiento preventivo</li>
+</ul>
+
+</p>
+              <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fas fa-times"></i>
+                {{ sitetext.portfolio.closebutton }}
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="p5" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <h2 class="text-uppercase">Neumáticos</h2>
+              <p class="item-intro text-muted">Venta, montaje y equilibrado de neumáticos</p>
+              <img class="img-fluid d-block mx-auto" src="{{ '/assets/img/portfolio/05-full.jpg' | relative_url }}" alt="Servicio de neumáticos"/>
+              <p><p>Servicio completo de <strong>neumáticos</strong> con todas las marcas y medidas disponibles. Ofrecemos venta, montaje, equilibrado y reparación de neumáticos.</p>
+
+<ul class="list-inline">
+  <li>Venta de todas las marcas</li>
+  <li>Montaje y desmontaje</li>
+  <li>Equilibrado computerizado</li>
+  <li>Reparación de pinchazos</li>
+</ul>
+
+</p>
+              <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fas fa-times"></i>
+                {{ sitetext.portfolio.closebutton }}
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="p6" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl"></div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="modal-body">
+              <h2 class="text-uppercase">Pre-ITV</h2>
+              <p class="item-intro text-muted">Revisión previa a la inspección técnica</p>
+              <img class="img-fluid d-block mx-auto" src="{{ '/assets/img/portfolio/06-full.jpg' | relative_url }}" alt="Servicio de Pre-ITV"/>
+              <p><p>Revisión completa <strong>Pre-ITV</strong> para asegurar que tu vehículo pase la inspección técnica sin problemas.</p>
+
+<ul class="list-inline">
+  <li>Revisión de luces</li>
+  <li>Sistema de frenos</li>
+  <li>Suspensión y dirección</li>
+  <li>Gases de escape</li>
+</ul>
+
+</p>
+              <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <i class="fas fa-times"></i>
+                {{ sitetext.portfolio.closebutton }}
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- End Portfolio Modals -->
+
+<!-- About -->
+<section class="page-section" id="{{ sitetext.about.section }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ sitetext.about.title }}</h2>
+        <h3 class="section-subheading text-muted">{{ sitetext.about.text }}</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <div class="large text-muted">{{ sitetext.about.body }}</div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End About -->
+
+<!-- Contact -->
+<section class="page-section" id="{{ sitetext.contact.section }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ sitetext.contact.title }}</h2>
+        <h3 class="section-subheading text-muted">{{ sitetext.contact.text }}</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <form target="_blank" action="https://formsubmit.co/rcarratalasanchez@gmail.com" method="POST">
+          <!-- FormSubmit Configuration -->
+          <input type="hidden" name="_subject" value="{{ sitetext.contact.subject }}">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+          <input type="text" name="_honey" style="display:none">
+          
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <input name="name" class="form-control" type="text"
+                  placeholder="{{ sitetext.contact.name }}"
+                  required>
+              </div>
+              <div class="form-group">
+                <input name="email" class="form-control" type="email"
+                  placeholder="{{ sitetext.contact.email }}"
+                  required>
+              </div>
+              <div class="form-group">
+                <input name="phone" class="form-control" type="tel"
+                  placeholder="{{ sitetext.contact.phone }}"
+                  required>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <textarea name="message" class="form-control" rows="6"
+                  placeholder="{{ sitetext.contact.message }}"
+                  required></textarea>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-lg-12 text-center">
+              <button class="btn btn-primary btn-xl text-uppercase" type="submit">
+                {{ sitetext.contact.submit }}
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Contact -->
+
+<!-- Floating WhatsApp Button -->
+{% include whatsapp-float.html %}
+
+{{ content }}
+
+	  <!-- Bootstrap core JavaScript -->
+	  <script src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
+	  <script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+
+	  <!-- Plugin JavaScript -->
+	  <script src="{{ '/assets/js/jquery.easing.min.js' | relative_url }}"></script>
+
+	  <!-- Contact form JavaScript -->
+	  <script src="{{ '/assets/js/jqBootstrapValidation.js' | relative_url }}"></script>
+	  <script src="{{ '/assets/js/contact_me.js' | relative_url }}"></script>
+
+	  <!-- Custom scripts for this template -->
+	  <script src="{{ '/assets/js/agency.min.js' | relative_url }}"></script>
+
+  </body>
+</html>

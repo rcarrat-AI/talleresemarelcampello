@@ -7,20 +7,22 @@
 # How to use:
 # {{ site.data.navigation[site.locale].nav.<var_name> | default: 'text' }}
 
-# English (default) - Disabled since we only use Spanish
+# English
 # -----------------
-# en: &DEFAULT_EN
-#   nav:
-#     - title: "Services"
-#       section: services
-#     - title: "Portfolio"  
-#       section: portfolio
-#     - title: "About"
-#       section: about
-#     - title: "Timeline"
-#       section: timeline
-#     - title: "Contact"
-#       section: contact
+en: &DEFAULT_EN
+  nav:
+    - title: "Services"
+      section: services
+    - title: "Specialties"  
+      section: portfolio
+    - title: "About"
+      section: about
+    - title: "Contact"
+      section: contact
+    - title: '<i class="fas fa-phone"></i> Phone'
+      url: "tel:+34965630331"
+    - title: '<i class="fab fa-whatsapp"></i> WhatsApp'
+      url: "https://wa.me/34667640479"
 
 # Spanish
 # -------
@@ -42,3 +44,22 @@ es-ES:
   <<: *DEFAULT_ES
 es-CO:
   <<: *DEFAULT_ES
+
+# German
+# ------
+de: &DEFAULT_DE
+  nav:
+    - title: "Dienstleistungen"
+      section: services
+    - title: "Fachbereiche"  
+      section: portfolio
+    - title: "Über uns"
+      section: about
+    - title: "Kontakt"
+      section: contact
+    - title: '<i class="fas fa-phone"></i> Telefon'
+      url: "tel:+34965630331"
+    - title: '<i class="fab fa-whatsapp"></i> WhatsApp'
+      url: "https://wa.me/34667640479"
+de-DE:
+  <<: *DEFAULT_DE
