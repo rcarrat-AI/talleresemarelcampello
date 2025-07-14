@@ -106,324 +106,60 @@
       </div>
     </div>
     <div class="row">
-      
+      {% assign item_index = 0 %}
+      {% for item in sitetext.portfolio.list %}
+        {% assign item_index = item_index | plus: 1 %}
         <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#p1">
+          <a class="portfolio-link" data-toggle="modal" href="#p{{ item_index }}">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="{{ '/assets/img/portfolio/01-thumbnail.jpg' | relative_url }}" alt="Mecánico trabajando en reparación de motor - Talleres EmarElCampello">
+            <img class="img-fluid" src="{{ item.img | relative_url }}" alt="{{ item.alt }}">
           </a>
           <div class="portfolio-caption">
-            <h4>Mecánica General</h4>
-            <p class="text-muted">Reparación Integral</p>
+            <h4>{{ item.title }}</h4>
+            <p class="text-muted">{{ item.text }}</p>
           </div>
         </div>
-      
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#p2">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="{{ '/assets/img/portfolio/02-thumbnail.jpg' | relative_url }}" alt="Servicio de electricidad del automóvil">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Electricidad</h4>
-            <p class="text-muted">Diagnosis Computerizada</p>
-          </div>
-        </div>
-      
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#p3">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="{{ '/assets/img/portfolio/03-thumbnail.jpg' | relative_url }}" alt="Servicio de inyección y diagnosis">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Inyección</h4>
-            <p class="text-muted">Diagnosis Avanzada</p>
-          </div>
-        </div>
-      
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#p4">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="{{ '/assets/img/portfolio/04-thumbnail.jpg' | relative_url }}" alt="Servicio de climatización automotriz - Talleres EmarElCampello">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Climatización</h4>
-            <p class="text-muted">Sistema de A/C Automotriz</p>
-          </div>
-        </div>
-      
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#p5">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="{{ '/assets/img/portfolio/05-thumbnail.jpg' | relative_url }}" alt="Servicio de neumáticos">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Neumáticos</h4>
-            <p class="text-muted">Montaje y Equilibrado</p>
-          </div>
-        </div>
-      
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#p6">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="{{ '/assets/img/portfolio/06-thumbnail.jpg' | relative_url }}" alt="Servicio de Pre-ITV">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Pre-ITV</h4>
-            <p class="text-muted">Revisión Completa</p>
-          </div>
-        </div>
-      
+      {% endfor %}
     </div>
   </div>
 </section>
 
 <!-- Portfolio Modals -->
-
-<div class="portfolio-modal modal fade" id="p1" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl"></div>
+{% assign modal_index = 0 %}
+{% for modal in sitetext.modals %}
+  {% assign modal_index = modal_index | plus: 1 %}
+  <div class="portfolio-modal modal fade" id="p{{ modal_index }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
         </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <div class="modal-body">
-              <h2 class="text-uppercase">Mecánica General</h2>
-              <p class="item-intro text-muted">Reparación y mantenimiento integral</p>
-              <img class="img-fluid d-block mx-auto" src="{{ '/assets/img/portfolio/01-full.jpg' | relative_url }}" alt="Mecánico trabajando en reparación de motor - Talleres EmarElCampello"/>
-              <p><p>Servicio completo de <strong>mecánica general</strong> para todo tipo de vehículos.</p>
-
-<ul class="list-inline">
-  <li>Reparación de motores</li>
-  <li>Sistemas de frenos</li>
-  <li>Transmisión y embrague</li>
-  <li>Suspensión y dirección</li>
-</ul>
-
-</p>
-              <button class="btn btn-primary" data-dismiss="modal" type="button">
-                <i class="fas fa-times"></i>
-                {{ sitetext.portfolio.closebutton }}
-              </button>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <h2 class="text-uppercase">{{ modal.title }}</h2>
+                <p class="item-intro text-muted">{{ modal.text }}</p>
+                <img class="img-fluid d-block mx-auto" src="{{ modal.img | relative_url }}" alt="{{ modal.alt }}"/>
+                <p>{{ modal.content }}</p>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  {{ sitetext.portfolio.closebutton }}
+                </button>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-
-<div class="portfolio-modal modal fade" id="p2" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl"></div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <div class="modal-body">
-              <h2 class="text-uppercase">Electricidad del Automóvil</h2>
-              <p class="item-intro text-muted">Diagnóstico y reparación de sistemas eléctricos</p>
-              <img class="img-fluid d-block mx-auto" src="{{ '/assets/img/portfolio/02-full.jpg' | relative_url }}" alt="Servicio de electricidad del automóvil"/>
-              <p><p>Especialistas en <strong>electricidad del automóvil</strong> con equipos de diagnóstico avanzado.</p>
-
-<ul class="list-inline">
-  <li>Alternadores y motores de arranque</li>
-  <li>Sistemas de carga</li>
-  <li>Reparación de centralitas</li>
-  <li>Instalaciones eléctricas</li>
-</ul>
-
-</p>
-              <button class="btn btn-primary" data-dismiss="modal" type="button">
-                <i class="fas fa-times"></i>
-                {{ sitetext.portfolio.closebutton }}
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="portfolio-modal modal fade" id="p3" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl"></div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <div class="modal-body">
-              <h2 class="text-uppercase">Inyección y Diagnosis</h2>
-              <p class="item-intro text-muted">Sistemas de inyección y diagnóstico computerizado</p>
-              <img class="img-fluid d-block mx-auto" src="{{ '/assets/img/portfolio/03-full.jpg' | relative_url }}" alt="Servicio de inyección y diagnosis"/>
-              <p><p>Servicio especializado en <strong>sistemas de inyección</strong> y <strong>diagnosis computerizada</strong>.</p>
-
-<ul class="list-inline">
-  <li>Sistemas de inyección diésel y gasolina</li>
-  <li>Diagnosis computerizada</li>
-  <li>Reparación de inyectores</li>
-  <li>Optimización del motor</li>
-</ul>
-
-</p>
-              <button class="btn btn-primary" data-dismiss="modal" type="button">
-                <i class="fas fa-times"></i>
-                {{ sitetext.portfolio.closebutton }}
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="portfolio-modal modal fade" id="p4" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl"></div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <div class="modal-body">
-              <h2 class="text-uppercase">Climatización</h2>
-              <p class="item-intro text-muted">Reparación y mantenimiento del sistema de climatización</p>
-              <img class="img-fluid d-block mx-auto" src="{{ '/assets/img/portfolio/04-full.jpg' | relative_url }}" alt="Servicio de climatización automotriz - Talleres EmarElCampello"/>
-              <p><p>Servicio completo de <strong>climatización automotriz</strong> y sistemas de aire acondicionado vehicular.</p>
-
-<ul class="list-inline">
-  <li>Recarga de gas refrigerante</li>
-  <li>Reparación de compresores</li>
-  <li>Limpieza y desinfección</li>
-  <li>Mantenimiento preventivo</li>
-</ul>
-
-</p>
-              <button class="btn btn-primary" data-dismiss="modal" type="button">
-                <i class="fas fa-times"></i>
-                {{ sitetext.portfolio.closebutton }}
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="portfolio-modal modal fade" id="p5" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl"></div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <div class="modal-body">
-              <h2 class="text-uppercase">Neumáticos</h2>
-              <p class="item-intro text-muted">Venta, montaje y equilibrado de neumáticos</p>
-              <img class="img-fluid d-block mx-auto" src="{{ '/assets/img/portfolio/05-full.jpg' | relative_url }}" alt="Servicio de neumáticos"/>
-              <p><p>Servicio completo de <strong>neumáticos</strong> con todas las marcas y medidas disponibles. Ofrecemos venta, montaje, equilibrado y reparación de neumáticos.</p>
-
-<ul class="list-inline">
-  <li>Venta de todas las marcas</li>
-  <li>Montaje y desmontaje</li>
-  <li>Equilibrado computerizado</li>
-  <li>Reparación de pinchazos</li>
-</ul>
-
-</p>
-              <button class="btn btn-primary" data-dismiss="modal" type="button">
-                <i class="fas fa-times"></i>
-                {{ sitetext.portfolio.closebutton }}
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="portfolio-modal modal fade" id="p6" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl"></div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <div class="modal-body">
-              <h2 class="text-uppercase">Pre-ITV</h2>
-              <p class="item-intro text-muted">Revisión previa a la inspección técnica</p>
-              <img class="img-fluid d-block mx-auto" src="{{ '/assets/img/portfolio/06-full.jpg' | relative_url }}" alt="Servicio de Pre-ITV"/>
-              <p><p>Revisión completa <strong>Pre-ITV</strong> para asegurar que tu vehículo pase la inspección técnica sin problemas.</p>
-
-<ul class="list-inline">
-  <li>Revisión de luces</li>
-  <li>Sistema de frenos</li>
-  <li>Suspensión y dirección</li>
-  <li>Gases de escape</li>
-</ul>
-
-</p>
-              <button class="btn btn-primary" data-dismiss="modal" type="button">
-                <i class="fas fa-times"></i>
-                {{ sitetext.portfolio.closebutton }}
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+{% endfor %}
 
 <!-- End Portfolio Modals -->
 

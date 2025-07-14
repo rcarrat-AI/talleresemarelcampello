@@ -54,6 +54,122 @@ en: &DEFAULT_EN
     text: "Discover our specialized automotive services"
     section: portfolio
     closebutton: "Close"
+    
+    list:
+      - title: "General Mechanics"
+        text: "Comprehensive Repair"
+        img: assets/img/portfolio/01-thumbnail.jpg
+        alt: "Mechanic working on motor repair - Talleres EmarElCampello"
+        
+      - title: "Automotive Electrical"
+        text: "Computer Diagnosis"
+        img: assets/img/portfolio/02-thumbnail.jpg
+        alt: "Automotive electrical service"
+        
+      - title: "Injection Systems"
+        text: "Advanced Diagnosis"
+        img: assets/img/portfolio/03-thumbnail.jpg
+        alt: "Injection and diagnosis service"
+        
+      - title: "Air Conditioning"
+        text: "Automotive A/C System"
+        img: assets/img/portfolio/04-thumbnail.jpg
+        alt: "Automotive air conditioning service - Talleres EmarElCampello"
+        
+      - title: "Tires"
+        text: "Mounting and Balancing"
+        img: assets/img/portfolio/05-thumbnail.jpg
+        alt: "Tire service"
+        
+      - title: "Pre-ITV"
+        text: "Complete Inspection"
+        img: assets/img/portfolio/06-thumbnail.jpg
+        alt: "Pre-ITV service"
+
+  modals:
+    - id: p1
+      title: "General Mechanics"
+      text: "Comprehensive repair and maintenance"
+      img: assets/img/portfolio/01-full.jpg
+      alt: "Mechanic working on motor repair - Talleres EmarElCampello"
+      content: |
+        <p>Complete <strong>general mechanics</strong> service for all types of vehicles.</p>
+        <ul class="list-inline">
+          <li>Engine repair</li>
+          <li>Brake systems</li>
+          <li>Transmission and clutch</li>
+          <li>Suspension and steering</li>
+        </ul>
+        
+    - id: p2
+      title: "Automotive Electrical"
+      text: "Diagnosis and repair of electrical systems"
+      img: assets/img/portfolio/02-full.jpg
+      alt: "Automotive electrical service"
+      content: |
+        <p>Specialists in <strong>automotive electrical</strong> with advanced diagnostic equipment.</p>
+        <ul class="list-inline">
+          <li>Alternators and starters</li>
+          <li>Charging systems</li>
+          <li>ECU repair</li>
+          <li>Electrical installations</li>
+        </ul>
+        
+    - id: p3
+      title: "Injection & Diagnosis"
+      text: "Injection systems and computer diagnosis"
+      img: assets/img/portfolio/03-full.jpg
+      alt: "Injection and diagnosis service"
+      content: |
+        <p>Specialized service in <strong>injection systems</strong> and <strong>computer diagnosis</strong>.</p>
+        <ul class="list-inline">
+          <li>Diesel and gasoline injection systems</li>
+          <li>Computer diagnosis</li>
+          <li>Injector repair</li>
+          <li>Engine optimization</li>
+        </ul>
+        
+    - id: p4
+      title: "Air Conditioning"
+      text: "Repair and maintenance of air conditioning system"
+      img: assets/img/portfolio/04-full.jpg
+      alt: "Automotive air conditioning service - Talleres EmarElCampello"
+      content: |
+        <p>Complete <strong>automotive air conditioning</strong> and vehicle air conditioning systems service.</p>
+        <ul class="list-inline">
+          <li>Refrigerant gas recharge</li>
+          <li>Compressor repair</li>
+          <li>Cleaning and disinfection</li>
+          <li>Preventive maintenance</li>
+        </ul>
+        
+    - id: p5
+      title: "Tires"
+      text: "Sale, mounting and balancing of tires"
+      img: assets/img/portfolio/05-full.jpg
+      alt: "Tire service"
+      content: |
+        <p>Complete <strong>tire</strong> service with all brands and sizes available. We offer sale, mounting, balancing and tire repair.</p>
+        <ul class="list-inline">
+          <li>Sale of all brands</li>
+          <li>Mounting and removal</li>
+          <li>Computer balancing</li>
+          <li>Puncture repair</li>
+        </ul>
+        
+    - id: p6
+      title: "Pre-ITV"
+      text: "Inspection prior to technical inspection"
+      img: assets/img/portfolio/06-full.jpg
+      alt: "Pre-ITV service"
+      content: |
+        <p>Complete <strong>Pre-ITV</strong> inspection to ensure your vehicle passes the technical inspection without problems.</p>
+        <ul class="list-inline">
+          <li>Light inspection</li>
+          <li>Brake system</li>
+          <li>Suspension and steering</li>
+          <li>Exhaust gases</li>
+        </ul>
 
   about:
     title: "About Us"
@@ -152,6 +268,123 @@ es: &DEFAULT_ES
     text: "Conoce nuestros servicios especializados de automoción"
     section: portafolio
     closebutton: "Cerrar"
+    
+    list:
+      - title: "Mecánica General"
+        text: "Reparación Integral"
+        # modal descriptions will be in modals section below
+        img: assets/img/portfolio/01-thumbnail.jpg
+        alt: "Mecánico trabajando en reparación de motor - Talleres EmarElCampello"
+        
+      - title: "Electricidad"
+        text: "Diagnosis Computerizada"
+        img: assets/img/portfolio/02-thumbnail.jpg
+        alt: "Servicio de electricidad del automóvil"
+        
+      - title: "Inyección"
+        text: "Diagnosis Avanzada"
+        img: assets/img/portfolio/03-thumbnail.jpg
+        alt: "Servicio de inyección y diagnosis"
+        
+      - title: "Climatización"
+        text: "Sistema de A/C Automotriz"
+        img: assets/img/portfolio/04-thumbnail.jpg
+        alt: "Servicio de climatización automotriz - Talleres EmarElCampello"
+        
+      - title: "Neumáticos"
+        text: "Montaje y Equilibrado"
+        img: assets/img/portfolio/05-thumbnail.jpg
+        alt: "Servicio de neumáticos"
+        
+      - title: "Pre-ITV"
+        text: "Revisión Completa"
+        img: assets/img/portfolio/06-thumbnail.jpg
+        alt: "Servicio de Pre-ITV"
+
+  modals:
+    - id: p1
+      title: "Mecánica General"
+      text: "Reparación y mantenimiento integral"
+      img: assets/img/portfolio/01-full.jpg
+      alt: "Mecánico trabajando en reparación de motor - Talleres EmarElCampello"
+      content: |
+        <p>Servicio completo de <strong>mecánica general</strong> para todo tipo de vehículos.</p>
+        <ul class="list-inline">
+          <li>Reparación de motores</li>
+          <li>Sistemas de frenos</li>
+          <li>Transmisión y embrague</li>
+          <li>Suspensión y dirección</li>
+        </ul>
+        
+    - id: p2
+      title: "Electricidad del Automóvil"
+      text: "Diagnóstico y reparación de sistemas eléctricos"
+      img: assets/img/portfolio/02-full.jpg
+      alt: "Servicio de electricidad del automóvil"
+      content: |
+        <p>Especialistas en <strong>electricidad del automóvil</strong> con equipos de diagnóstico avanzado.</p>
+        <ul class="list-inline">
+          <li>Alternadores y motores de arranque</li>
+          <li>Sistemas de carga</li>
+          <li>Reparación de centralitas</li>
+          <li>Instalaciones eléctricas</li>
+        </ul>
+        
+    - id: p3
+      title: "Inyección y Diagnosis"
+      text: "Sistemas de inyección y diagnóstico computerizado"
+      img: assets/img/portfolio/03-full.jpg
+      alt: "Servicio de inyección y diagnosis"
+      content: |
+        <p>Servicio especializado en <strong>sistemas de inyección</strong> y <strong>diagnosis computerizada</strong>.</p>
+        <ul class="list-inline">
+          <li>Sistemas de inyección diésel y gasolina</li>
+          <li>Diagnosis computerizada</li>
+          <li>Reparación de inyectores</li>
+          <li>Optimización del motor</li>
+        </ul>
+        
+    - id: p4
+      title: "Climatización"
+      text: "Reparación y mantenimiento del sistema de climatización"
+      img: assets/img/portfolio/04-full.jpg
+      alt: "Servicio de climatización automotriz - Talleres EmarElCampello"
+      content: |
+        <p>Servicio completo de <strong>climatización automotriz</strong> y sistemas de aire acondicionado vehicular.</p>
+        <ul class="list-inline">
+          <li>Recarga de gas refrigerante</li>
+          <li>Reparación de compresores</li>
+          <li>Limpieza y desinfección</li>
+          <li>Mantenimiento preventivo</li>
+        </ul>
+        
+    - id: p5
+      title: "Neumáticos"
+      text: "Venta, montaje y equilibrado de neumáticos"
+      img: assets/img/portfolio/05-full.jpg
+      alt: "Servicio de neumáticos"
+      content: |
+        <p>Servicio completo de <strong>neumáticos</strong> con todas las marcas y medidas disponibles. Ofrecemos venta, montaje, equilibrado y reparación de neumáticos.</p>
+        <ul class="list-inline">
+          <li>Venta de todas las marcas</li>
+          <li>Montaje y desmontaje</li>
+          <li>Equilibrado computerizado</li>
+          <li>Reparación de pinchazos</li>
+        </ul>
+        
+    - id: p6
+      title: "Pre-ITV"
+      text: "Revisión previa a la inspección técnica"
+      img: assets/img/portfolio/06-full.jpg
+      alt: "Servicio de Pre-ITV"
+      content: |
+        <p>Revisión completa <strong>Pre-ITV</strong> para asegurar que tu vehículo pase la inspección técnica sin problemas.</p>
+        <ul class="list-inline">
+          <li>Revisión de luces</li>
+          <li>Sistema de frenos</li>
+          <li>Suspensión y dirección</li>
+          <li>Gases de escape</li>
+        </ul>
 
   about:
     title: "Acerca de Nosotros"
@@ -255,6 +488,122 @@ de: &DEFAULT_DE
     text: "Entdecken Sie unsere spezialisierten Automotive-Dienstleistungen"
     section: portfolio
     closebutton: "Schließen"
+    
+    list:
+      - title: "Allgemeine Mechanik"
+        text: "Umfassende Reparatur"
+        img: assets/img/portfolio/01-thumbnail.jpg
+        alt: "Mechaniker bei der Motorreparatur - Talleres EmarElCampello"
+        
+      - title: "Kfz-Elektrik"
+        text: "Computer-Diagnose"
+        img: assets/img/portfolio/02-thumbnail.jpg
+        alt: "Kfz-Elektrrik Service"
+        
+      - title: "Einspritzsysteme"
+        text: "Erweiterte Diagnose"
+        img: assets/img/portfolio/03-thumbnail.jpg
+        alt: "Einspritzung und Diagnose Service"
+        
+      - title: "Klimaanlage"
+        text: "Kfz-Klimaanlage System"
+        img: assets/img/portfolio/04-thumbnail.jpg
+        alt: "Kfz-Klimaanlage Service - Talleres EmarElCampello"
+        
+      - title: "Reifen"
+        text: "Montage und Auswuchtung"
+        img: assets/img/portfolio/05-thumbnail.jpg
+        alt: "Reifen Service"
+        
+      - title: "Vor-TÜV"
+        text: "Komplette Inspektion"
+        img: assets/img/portfolio/06-thumbnail.jpg
+        alt: "Vor-TÜV Service"
+
+  modals:
+    - id: p1
+      title: "Allgemeine Mechanik"
+      text: "Umfassende Reparatur und Wartung"
+      img: assets/img/portfolio/01-full.jpg
+      alt: "Mechaniker bei der Motorreparatur - Talleres EmarElCampello"
+      content: |
+        <p>Kompletter <strong>allgemeine Mechanik</strong> Service für alle Fahrzeugtypen.</p>
+        <ul class="list-inline">
+          <li>Motorreparatur</li>
+          <li>Bremssysteme</li>
+          <li>Getriebe und Kupplung</li>
+          <li>Fahrwerk und Lenkung</li>
+        </ul>
+        
+    - id: p2
+      title: "Kfz-Elektrik"
+      text: "Diagnose und Reparatur von elektrischen Systemen"
+      img: assets/img/portfolio/02-full.jpg
+      alt: "Kfz-Elektrik Service"
+      content: |
+        <p>Spezialisten für <strong>Kfz-Elektrik</strong> mit fortschrittlichen Diagnosegeräten.</p>
+        <ul class="list-inline">
+          <li>Lichtmaschinen und Anlasser</li>
+          <li>Ladesysteme</li>
+          <li>Steuergeräte-Reparatur</li>
+          <li>Elektrische Installationen</li>
+        </ul>
+        
+    - id: p3
+      title: "Einspritzung & Diagnose"
+      text: "Einspritzsysteme und Computer-Diagnose"
+      img: assets/img/portfolio/03-full.jpg
+      alt: "Einspritzung und Diagnose Service"
+      content: |
+        <p>Spezialisierter Service für <strong>Einspritzsysteme</strong> und <strong>Computer-Diagnose</strong>.</p>
+        <ul class="list-inline">
+          <li>Diesel- und Benzin-Einspritzsysteme</li>
+          <li>Computer-Diagnose</li>
+          <li>Einspritzventil-Reparatur</li>
+          <li>Motor-Optimierung</li>
+        </ul>
+        
+    - id: p4
+      title: "Klimaanlage"
+      text: "Reparatur und Wartung der Klimaanlage"
+      img: assets/img/portfolio/04-full.jpg
+      alt: "Kfz-Klimaanlage Service - Talleres EmarElCampello"
+      content: |
+        <p>Kompletter <strong>Kfz-Klimaanlage</strong> und Fahrzeug-Klimaanlagen-Service.</p>
+        <ul class="list-inline">
+          <li>Kältemittel-Nachfüllung</li>
+          <li>Kompressor-Reparatur</li>
+          <li>Reinigung und Desinfektion</li>
+          <li>Vorbeugende Wartung</li>
+        </ul>
+        
+    - id: p5
+      title: "Reifen"
+      text: "Verkauf, Montage und Auswuchtung von Reifen"
+      img: assets/img/portfolio/05-full.jpg
+      alt: "Reifen Service"
+      content: |
+        <p>Kompletter <strong>Reifen</strong> Service mit allen verfügbaren Marken und Größen. Wir bieten Verkauf, Montage, Auswuchtung und Reifenreparatur.</p>
+        <ul class="list-inline">
+          <li>Verkauf aller Marken</li>
+          <li>Montage und Demontage</li>
+          <li>Computer-Auswuchtung</li>
+          <li>Pannen-Reparatur</li>
+        </ul>
+        
+    - id: p6
+      title: "Vor-TÜV"
+      text: "Inspektion vor der technischen Prüfung"
+      img: assets/img/portfolio/06-full.jpg
+      alt: "Vor-TÜV Service"
+      content: |
+        <p>Komplette <strong>Vor-TÜV</strong> Inspektion, um sicherzustellen, dass Ihr Fahrzeug die technische Prüfung problemlos besteht.</p>
+        <ul class="list-inline">
+          <li>Licht-Inspektion</li>
+          <li>Bremssystem</li>
+          <li>Fahrwerk und Lenkung</li>
+          <li>Abgase</li>
+        </ul>
 
   about:
     title: "Über uns"
