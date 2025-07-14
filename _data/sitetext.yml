@@ -180,7 +180,7 @@ es: &DEFAULT_ES
     text: '<div class="contact-info-inline">
       <p class="contact-line">
         <span class="contact-label">Dirección:</span> 
-        <span class="contact-value">San Ramón 32, El Campello, Alicante</span>
+        <span class="contact-value">San Ramón 32, El Campello (Alicante)</span>
       </p>
       <p class="contact-line">
         <span class="contact-label">Horario:</span> 
