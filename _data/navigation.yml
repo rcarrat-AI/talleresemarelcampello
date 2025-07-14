@@ -63,3 +63,22 @@ de: &DEFAULT_DE
       url: "https://wa.me/34667640479"
 de-DE:
   <<: *DEFAULT_DE
+
+# French
+# ------
+fr: &DEFAULT_FR
+  nav:
+    - title: "Services"
+      section: services
+    - title: "Spécialités"  
+      section: portfolio
+    - title: "À Propos"
+      section: about
+    - title: "Contact"
+      section: contact
+    - title: '<i class="fas fa-phone"></i> Téléphone'
+      url: "tel:+34965630331"
+    - title: '<i class="fab fa-whatsapp"></i> WhatsApp'
+      url: "https://wa.me/34667640479"
+fr-FR:
+  <<: *DEFAULT_FR

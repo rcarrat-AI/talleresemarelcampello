@@ -657,3 +657,218 @@ de: &DEFAULT_DE
         icon: "fab fa-whatsapp"
 de-DE:
   <<: *DEFAULT_DE
+
+"fr": &DEFAULT_FR
+  header:
+    title: "Bienvenue chez Talleres EmarElCampello"
+    text: "Service rapide et professionnel"
+    button: "Nos Services"
+    buttonlink: "#services"
+
+  services:
+    title: "Nos Services"
+    text: "Services automobiles professionnels"
+    section: services
+    list:
+      - title: "Service Rapide"
+        desc: "Vidange d'huile, filtres et entretien de base. Service rapide et efficace pour vos besoins quotidiens."
+        icon: fas fa-clock
+      - title: "Mécanique Générale"
+        desc: "Réparation et entretien complets du moteur, transmission, freins, distribution, embrayages et systèmes mécaniques de votre véhicule."
+        icon: fas fa-wrench
+      - title: "Électricité Automobile"
+        desc: "Diagnostic et réparation des systèmes électriques, alternateurs, batteries et composants électroniques."
+        icon: fas fa-bolt
+      - title: "Injection et Moteur"
+        desc: "Spécialistes en systèmes d'injection, réparation moteur et optimisation des performances."
+        icon: fas fa-cog
+      - title: "Climatisation"
+        desc: "Entretien, réparation et recharge du système de climatisation de votre véhicule pour un confort maximal."
+        icon: fas fa-car-side
+      - title: "Pré-ITV"
+        desc: "Inspection complète avant l'ITV officielle pour s'assurer que votre véhicule passe sans problèmes. Nous offrons aussi le service de passer l'ITV pour vous."
+        icon: fas fa-clipboard-check
+      - title: "Diagnostic Informatique"
+        desc: "Diagnostic avancé avec équipements de dernière génération pour détecter tout problème."
+        icon: fas fa-laptop-medical
+      - title: "Pneumatiques"
+        desc: "Vente, montage, équilibrage et réparation de pneumatiques. Toutes marques et tailles."
+        icon: fas fa-circle
+      - title: "Enlèvement de Véhicules"
+        desc: "Service d'enlèvement et livraison de votre véhicule à domicile ou au travail (selon disponibilité)."
+        icon: fas fa-truck
+
+  portfolio:
+    title: "Spécialités"
+    text: "Découvrez nos services automobiles spécialisés"
+    section: portfolio
+    closebutton: "Fermer"
+    
+    list:
+      - title: "Mécanique Générale"
+        text: "Réparation Complète"
+        img: assets/img/portfolio/01-thumbnail.jpg
+        alt: "Mécanicien travaillant sur la réparation moteur - Talleres EmarElCampello"
+        
+      - title: "Électricité Automobile"
+        text: "Diagnostic Informatique"
+        img: assets/img/portfolio/02-thumbnail.jpg
+        alt: "Service d'électricité automobile"
+        
+      - title: "Systèmes d'Injection"
+        text: "Diagnostic Avancé"
+        img: assets/img/portfolio/03-thumbnail.jpg
+        alt: "Service d'injection et diagnostic"
+        
+      - title: "Climatisation"
+        text: "Système A/C Automobile"
+        img: assets/img/portfolio/04-thumbnail.jpg
+        alt: "Service de climatisation automobile - Talleres EmarElCampello"
+        
+      - title: "Pneumatiques"
+        text: "Montage et Équilibrage"
+        img: assets/img/portfolio/05-thumbnail.jpg
+        alt: "Service de pneumatiques"
+        
+      - title: "Pré-ITV"
+        text: "Inspection Complète"
+        img: assets/img/portfolio/06-thumbnail.jpg
+        alt: "Service Pré-ITV"
+
+  modals:
+    - id: p1
+      title: "Mécanique Générale"
+      text: "Réparation et entretien complets"
+      img: assets/img/portfolio/01-full.jpg
+      alt: "Mécanicien travaillant sur la réparation moteur - Talleres EmarElCampello"
+      content: |
+        <p>Service complet de <strong>mécanique générale</strong> pour tous types de véhicules.</p>
+        <ul class="list-inline">
+          <li>Réparation de moteurs</li>
+          <li>Systèmes de freinage</li>
+          <li>Transmission et embrayage</li>
+          <li>Suspension et direction</li>
+        </ul>
+        
+    - id: p2
+      title: "Électricité Automobile"
+      text: "Diagnostic et réparation des systèmes électriques"
+      img: assets/img/portfolio/02-full.jpg
+      alt: "Service d'électricité automobile"
+      content: |
+        <p>Spécialistes en <strong>électricité automobile</strong> avec équipements de diagnostic avancés.</p>
+        <ul class="list-inline">
+          <li>Alternateurs et démarreurs</li>
+          <li>Systèmes de charge</li>
+          <li>Réparation de boîtiers électroniques</li>
+          <li>Installations électriques</li>
+        </ul>
+        
+    - id: p3
+      title: "Injection et Diagnostic"
+      text: "Systèmes d'injection et diagnostic informatique"
+      img: assets/img/portfolio/03-full.jpg
+      alt: "Service d'injection et diagnostic"
+      content: |
+        <p>Service spécialisé en <strong>systèmes d'injection</strong> et <strong>diagnostic informatique</strong>.</p>
+        <ul class="list-inline">
+          <li>Systèmes d'injection diesel et essence</li>
+          <li>Diagnostic informatique</li>
+          <li>Réparation d'injecteurs</li>
+          <li>Optimisation moteur</li>
+        </ul>
+        
+    - id: p4
+      title: "Climatisation"
+      text: "Réparation et entretien du système de climatisation"
+      img: assets/img/portfolio/04-full.jpg
+      alt: "Service de climatisation automobile - Talleres EmarElCampello"
+      content: |
+        <p>Service complet de <strong>climatisation automobile</strong> et systèmes de conditionnement d'air véhiculaires.</p>
+        <ul class="list-inline">
+          <li>Recharge de gaz réfrigérant</li>
+          <li>Réparation de compresseurs</li>
+          <li>Nettoyage et désinfection</li>
+          <li>Entretien préventif</li>
+        </ul>
+        
+    - id: p5
+      title: "Pneumatiques"
+      text: "Vente, montage et équilibrage de pneumatiques"
+      img: assets/img/portfolio/05-full.jpg
+      alt: "Service de pneumatiques"
+      content: |
+        <p>Service complet de <strong>pneumatiques</strong> avec toutes les marques et tailles disponibles. Nous offrons vente, montage, équilibrage et réparation de pneumatiques.</p>
+        <ul class="list-inline">
+          <li>Vente de toutes marques</li>
+          <li>Montage et démontage</li>
+          <li>Équilibrage informatique</li>
+          <li>Réparation de crevaisons</li>
+        </ul>
+        
+    - id: p6
+      title: "Pré-ITV"
+      text: "Inspection préalable à l'inspection technique"
+      img: assets/img/portfolio/06-full.jpg
+      alt: "Service Pré-ITV"
+      content: |
+        <p>Inspection complète <strong>Pré-ITV</strong> pour s'assurer que votre véhicule passe l'inspection technique sans problèmes.</p>
+        <ul class="list-inline">
+          <li>Inspection des éclairages</li>
+          <li>Système de freinage</li>
+          <li>Suspension et direction</li>
+          <li>Gaz d'échappement</li>
+        </ul>
+
+  about:
+    title: "À Propos de Nous"
+    text: "Votre atelier de confiance depuis 1982"
+    body: "<strong>Talleres EmarElCampello</strong> fut fondé en <strong>1982</strong> comme un atelier familial qui se consacre depuis plus de 40 ans aux soins et à l'entretien de véhicules à El Campello et environs.<br><br>Pour nous, <strong>le plus important sont nos clients</strong>. Nous cherchons toujours le meilleur pour eux et leurs véhicules, tant en <strong>qualité qu'en prix</strong>. Notre philosophie se base sur l'offre d'un service personnalisé, honnête et professionnel, car nous comprenons que chaque client et chaque véhicule a des besoins uniques.<br><br><strong>Nous travaillons avec les marques les plus reconnues et les pièces détachées officielles</strong>, offrant toujours le meilleur rapport qualité-prix. En tant qu'<strong>atelier agréé AD Parts</strong>, nous garantissons la qualité et le professionnalisme dans chaque service que nous réalisons."
+    section: about
+
+  contact:
+    title: "Contactez-nous"
+    text: '<div class="contact-info-inline">
+      <p class="contact-line">
+        <span class="contact-label">Adresse:</span> 
+        <span class="contact-value">San Ramón 32, El Campello (Alicante)</span>
+      </p>
+      <p class="contact-line">
+        <span class="contact-label">Horaires:</span> 
+        <span class="contact-value">Lun-Ven: 8:00-14:00, 16:00-20:00</span>
+      </p>
+      <p class="contact-line">
+        <span class="contact-label">Téléphone:</span> 
+        <a href="tel:+34965630331" class="contact-value contact-link">965 630 331</a>
+      </p>
+      <p class="contact-line">
+        <span class="contact-label">WhatsApp:</span> 
+        <a href="https://wa.me/34667640479" class="contact-value contact-link whatsapp" target="_blank">667 640 479</a>
+      </p>
+    </div>
+    <div class="contact-map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3131.8473!2d-0.3952!3d38.4382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6236a70b6e4a6b%3A0x8c5e5a5a5a5a5a5a!2sSan%20Ramon%2032%2C%2003560%20el%20Campello%2C%20Alicante!5e0!3m2!1sen!2ses!4v1642345678901!5m2!1sen!2ses" width="100%" height="300" style="border:0; border-radius: 8px; margin-top: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>'
+    section: contact
+    name: "Nom*"
+    name-validation: "Veuillez entrer votre nom."
+    email: "E-mail*"
+    email-validation: "Veuillez entrer votre adresse e-mail."
+    phone: "Téléphone*"
+    phone-validation: "Veuillez entrer votre numéro de téléphone."
+    message: "Décrivez le problème de votre véhicule*"
+    message-validation: "Veuillez décrire le problème ou le service nécessaire."
+    subject: "Demande web - Talleres EmarElCampello"
+    submit: "Envoyer la Demande"
+
+  footer:
+    legal: "Politique de Confidentialité"
+    social:
+      - url: tel:+34965630331
+        icon: "fas fa-phone"
+      - url: tel:+34667640479
+        icon: "fas fa-mobile-alt"
+      - url: https://wa.me/34667640479
+        icon: "fab fa-whatsapp"
+fr-FR:
+  <<: *DEFAULT_FR

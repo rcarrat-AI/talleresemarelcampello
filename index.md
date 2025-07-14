@@ -16,7 +16,7 @@ locale: es
             return; // Don't ask again
         }
         
-        // Check if user prefers English or German and redirect
+        // Check if user prefers English, German, or French and redirect
         if (langCode === 'en') {
             document.cookie = 'lang_asked=true; path=/; max-age=2592000'; // 30 days
             if (confirm('¿Prefieres ver el sitio en inglés? / Would you like to view the site in English?')) {
@@ -30,6 +30,14 @@ locale: es
             if (confirm('¿Prefieres ver el sitio en alemán? / Möchten Sie die Website auf Deutsch anzeigen?')) {
                 document.cookie = 'lang_preference=de; path=/; max-age=2592000'; // 30 days
                 window.location.href = '/de/';
+            } else {
+                document.cookie = 'lang_preference=es; path=/; max-age=2592000'; // 30 days
+            }
+        } else if (langCode === 'fr') {
+            document.cookie = 'lang_asked=true; path=/; max-age=2592000'; // 30 days
+            if (confirm('¿Prefieres ver el sitio en francés? / Préférez-vous voir le site en français?')) {
+                document.cookie = 'lang_preference=fr; path=/; max-age=2592000'; // 30 days
+                window.location.href = '/fr/';
             } else {
                 document.cookie = 'lang_preference=es; path=/; max-age=2592000'; // 30 days
             }
