@@ -19,7 +19,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : Talleres EmarElCampello
 email      : talleresemarelcampello@gmail.com #this is also the email contact forms will go to
-description: "Talleres EmarElCampello - Tu taller de confianza en El Campello"
+description: "Taller mecánico en El Campello desde 1982. Especialistas en mecánica general, electricidad, inyección, climatización y Pre-ITV. Servicio rápido y profesional. ☎ 965 630 331"
 author     : Talleres EmarElCampello
 favicon    : "favicon.ico" # path to favicon
 custom_css : "assets/css/custom.css" # Custom CSS for better readability

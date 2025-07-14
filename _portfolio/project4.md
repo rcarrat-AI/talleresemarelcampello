@@ -2,7 +2,7 @@
 title: Climatización
 subtitle: Reparación y mantenimiento del sistema de climatización
 image: assets/img/portfolio/04-full.jpg
-alt: Reparación y mantenimiento automotriz
+alt: Servicio de climatización automotriz - Talleres EmarElCampello
 
 caption:
   title: Climatización

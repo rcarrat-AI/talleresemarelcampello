@@ -2,7 +2,7 @@
 title: Mecánica General
 subtitle: Reparación y mantenimiento integral
 image: assets/img/portfolio/01-full.jpg
-alt: Servicio de mecánica general
+alt: Mecánico trabajando en reparación de motor - Talleres EmarElCampello
 
 caption:
   title: Mecánica General

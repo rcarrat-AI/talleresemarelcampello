@@ -183,6 +183,10 @@ es: &DEFAULT_ES
         <span class="contact-value">San Ramón 32, El Campello, Alicante</span>
       </p>
       <p class="contact-line">
+        <span class="contact-label">Horario:</span> 
+        <span class="contact-value">L-V: 8:00-14:00, 16:00-20:00</span>
+      </p>
+      <p class="contact-line">
         <span class="contact-label">Teléfono:</span> 
         <a href="tel:+34965630331" class="contact-value contact-link">965 630 331</a>
       </p>

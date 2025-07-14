@@ -107,28 +107,30 @@
     bottom: 40px;
     right: 40px;
     background-color: #25d366;
-    color: #FFF;
+    color: #FFF !important;
     border-radius: 50px;
     text-align: center;
     font-size: 30px;
-    box-shadow: 2px 2px 3px #999;
-    z-index: 100;
+    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+    z-index: 10000;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-decoration: none;
+    text-decoration: none !important;
     transition: all 0.3s ease;
 }
 
 .whatsapp-float:hover {
     background-color: #20b954;
-    color: #FFF;
+    color: #FFF !important;
     transform: scale(1.1);
-    text-decoration: none;
+    text-decoration: none !important;
+    box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
 }
 
 .whatsapp-float i {
-    margin-top: 16px;
+    margin: 0;
+    line-height: 1;
 }
 
 /* Phone number in navigation styling */
