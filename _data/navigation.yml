@@ -82,3 +82,22 @@ fr: &DEFAULT_FR
       url: "https://wa.me/34667640479"
 fr-FR:
   <<: *DEFAULT_FR
+
+# Catalan/Valenciano
+# ------------------
+ca: &DEFAULT_CA
+  nav:
+    - title: "Serveis"
+      section: servicios
+    - title: "Especialitats"
+      section: portafolio
+    - title: "Nosaltres"
+      section: nosotros
+    - title: "Contacte"
+      section: contacto
+    - title: '<i class="fas fa-phone"></i> Telèfon'
+      url: "tel:+34965630331"
+    - title: '<i class="fab fa-whatsapp"></i> WhatsApp'
+      url: "https://wa.me/34667640479"
+ca-ES:
+  <<: *DEFAULT_CA

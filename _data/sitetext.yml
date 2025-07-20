@@ -872,3 +872,132 @@ de-DE:
         icon: "fab fa-whatsapp"
 fr-FR:
   <<: *DEFAULT_FR
+
+# Catalan/Valenciano
+# -------------------
+ca: &DEFAULT_CA
+  header:
+    title: Servei Ràpid i Professional
+    text: Especialistes en Automoció
+    button: Els Nostres Serveis
+    buttonlink: "#servicios"
+
+  services:
+    title: "Els Nostres Serveis"
+    text: "Serveis professionals d'automoció"
+    section: servicios
+    list:
+      - title: "Servei Ràpid"
+        desc: "Canvi d'oli, filtres i manteniment bàsic. Servei ràpid i eficient per al teu dia a dia."
+        icon: fas fa-clock
+      - title: "Mecànica General"
+        desc: "Reparació i manteniment complet del motor, transmissió, frens, distribució, embragatges i sistemes mecànics del teu vehicle."
+        icon: fas fa-wrench
+      - title: "Electricitat de l'Automòbil"
+        desc: "Diagnòstic i reparació de sistemes elèctrics, alternadors, bateries i components electrònics."
+        icon: fas fa-bolt
+      - title: "Injecció i Motor"
+        desc: "Especialistes en sistemes d'injecció, reparació de motors i optimització del rendiment."
+        icon: fas fa-cog
+      - title: "Climatització"
+        desc: "Manteniment, reparació i recàrrega del sistema d'aire condicionat del teu vehicle per al teu màxim confort."
+        icon: fas fa-car-side
+      - title: "Pre-ITV"
+        desc: "Revisió completa abans de la ITV oficial per assegurar que el teu vehicle passe sense problemes. També oferim el servei de passar la ITV per tu."
+        icon: fas fa-clipboard-check
+      - title: "Diagnòstic Computeritzat"
+        desc: "Diagnòstic avançat amb equips d'última generació per detectar qualsevol problema."
+        icon: fas fa-laptop-medical
+      - title: "Pneumàtics"
+        desc: "Venda, muntatge, equilibrat i reparació de pneumàtics. Totes les marques i mesures."
+        icon: fas fa-circle
+      - title: "Recollida de Vehicles"
+        desc: "Servei de recollida i entrega del teu vehicle al teu domicili o lloc de treball (subjecte a disponibilitat)."
+        icon: fas fa-truck
+
+  portfolio:
+    title: "Especialitats"
+    text: "Coneix els nostres serveis especialitzats d'automoció"
+    section: portafolio
+    closebutton: "Tancar"
+    
+    list:
+      - title: "Mecànica General"
+        text: "Reparació Integral"
+        img: assets/img/portfolio/01-thumbnail.jpg
+        alt: "Mecànic treballant en reparació de motor - Talleres EmarElCampello"
+        
+      - title: "Electricitat"
+        text: "Diagnòstic Computeritzat"
+        img: assets/img/portfolio/02-thumbnail.jpg
+        alt: "Servei d'electricitat de l'automòbil"
+        
+      - title: "Injecció"
+        text: "Diagnòstic Avançat"
+        img: assets/img/portfolio/03-thumbnail.jpg
+        alt: "Servei d'injecció i diagnòstic"
+        
+      - title: "Climatització"
+        text: "Sistema d'A/C Automotriu"
+        img: assets/img/portfolio/04-thumbnail.jpg
+        alt: "Servei de climatització automotriu - Talleres EmarElCampello"
+        
+      - title: "Pneumàtics"
+        text: "Muntatge i Equilibrat"
+        img: assets/img/portfolio/05-thumbnail.jpg
+        alt: "Servei de pneumàtics"
+        
+      - title: "Pre-ITV"
+        text: "Revisió Completa"
+        img: assets/img/portfolio/06-thumbnail.jpg
+        alt: "Servei de Pre-ITV"
+
+  about:
+    title: "Sobre Nosaltres"
+    text: "El teu taller de confiança des de 1982"
+    body: "<strong>Talleres EmarElCampello</strong> va ser fundat el <strong>1982</strong> com un taller familiar que es dedica des de fa més de 40 anys a la cura i manteniment de vehicles a El Campello i voltants.<br><br>Per a nosaltres, <strong>el més important són els nostres clients</strong>. Sempre busquem el millor per a ells i els seus vehicles, tant en <strong>qualitat com en preu</strong>. La nostra filosofia es basa en oferir un servei personalitzat, honest i professional, perquè entenem que cada client i cada vehicle té necessitats úniques.<br><br><strong>Treballem amb les marques més reconegudes i peces de recanvi oficials</strong>, oferint sempre la millor relació qualitat-preu. Com a <strong>taller autoritzat AD Parts</strong>, garantim la qualitat i professionalitat en cada servei que realitzem."
+    section: nosotros
+
+  contact:
+    title: "Contacta amb nosaltres"
+    text: '<div class="contact-info-inline">
+      <p class="contact-line">
+        <span class="contact-label">Adreça:</span> 
+        <span class="contact-value">San Ramón 32, El Campello (Alacant)</span>
+      </p>
+      <p class="contact-line">
+        <span class="contact-label">Horaris:</span> 
+        <span class="contact-value">Dl-Dv: 8:00-14:00, 16:00-20:00</span>
+      </p>
+      <p class="contact-line">
+        <span class="contact-label">Telèfon:</span> 
+        <a href="tel:+34965630331" class="contact-value contact-link">965 630 331</a>
+      </p>
+      <p class="contact-line">
+        <span class="contact-label">WhatsApp:</span> 
+        <a href="https://wa.me/34667640479" class="contact-value contact-link whatsapp" target="_blank">667 640 479</a>
+      </p>
+    </div>'
+    section: contacto
+    name: "Nom*"
+    name-validation: "Si us plau, introdueix el teu nom."
+    email: "Correu electrònic*"
+    email-validation: "Si us plau, introdueix la teua adreça de correu electrònic."
+    phone: "Telèfon*"
+    phone-validation: "Si us plau, introdueix el teu número de telèfon."
+    message: "Descriu el problema del teu vehicle*"
+    message-validation: "Si us plau, descriu el problema o el servei necessari."
+    subject: "Consulta web - Talleres EmarElCampello"
+    submit: "Enviar Consulta"
+
+  footer:
+    legal: "Política de Privacitat"
+    social:
+      - url: tel:+34965630331
+        icon: "fas fa-phone"
+      - url: tel:+34667640479
+        icon: "fas fa-mobile-alt"
+      - url: https://wa.me/34667640479
+        icon: "fab fa-whatsapp"
+ca-ES:
+  <<: *DEFAULT_CA

@@ -30,7 +30,7 @@ custom_css : "assets/css/custom.css" # Custom CSS for better readability
 locale: "es-ES" # See available languages in _data/sitetext.yml
 
 # Multilingual support
-languages: ["es", "en", "de"]
+languages: ["es", "en", "de", "fr", "ca"]
 default_lang: "es"
 
 analytics:
